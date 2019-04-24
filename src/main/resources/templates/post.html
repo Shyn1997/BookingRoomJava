@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Post</title>
+        <meta name="robots" content="index, follow" />
+        <meta name="keywords" content="phong tro cao cap canh so thu q1"/>
+        <meta name="description" content="Chính chủ cho thuê:
+        Phòng có nội thất bao gồm :
+        -Giường
+        -Nệm
+        -Tủ quần áo
+        -Máy lạnh
+        -Tủ lạnh
+        -Toilet riêng
+        - Tòa nhà có thang máy, nhà giữ xe, bảo vệ 24/24
+        - Giờ giấc tự do, không chung chủ
+        Ở tòa nhà mình sạch sẽ có người vệ sinh khu vực chung mỗi ngà" />
+        <link rel="icon" href="../../favicon.ico" />
+        <link rel="stylesheet" type="text/css" href="content/css/main.min.css" />
+        <link rel="stylesheet" type="text/css" href="content/libs/select2/select2.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/boxsaved.css" />
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <div class="header-mobile visible-xs">
+                    <ul>
+                        <li><a href="../../dang-ky.html"><i class="fa fa-user-plus"></i><span>Đăng ký </span></a></li>
+                        <li><a href="../../dang-nhap.html"><i class="fa fa-sign-in"></i><span>Đăng nhập</span></a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#mobile_menu"><i class="fa fa-bars"></i><span>Danh mục</span></a></li>
+                        <li><a href="../../dang-tin.html"><i class="fa fa-plus-circle"></i><span>Đăng tin </span></a></li>
+                        <li><a href="#frmSearch_mb" class="click-to"><i class="fa fa-search"></i><span>Tìm kiếm</span></a></li>
+                    </ul>
+                </div>
+                <div class="modal right fade" id="mobile_menu" tabindex="-1" role="dialog">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times-circle"></i></button>
+                                <h4 class="modal-title">Menu</h4>
+                            </div>
+                            <div class="modal-body">
+                                <ul class="navbar-nav">
+                                    <li class="menu-item-has-children ">
+                                        <a href="../default.htm" title="Cho thuê phòng trọ">Cho thuê phòng trọ</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="../tp-ho-chi-minh.html" title="TP Hồ Chí Minh">TP Hồ Chí Minh</a></li>
+                                            <li><a href="../ha-noi.html" title="Hà Nội">Hà Nội</a></li>
+                                            <li><a href="../binh-duong.html" title="Bình Dương">Bình Dương</a></li>
+                                            <li><a href="../dong-nai.html" title="Đồng Nai">Đồng Nai</a></li>
+                                            <li><a href="../vung-tau.html" title="Vũng Tàu">Vũng Tàu</a></li>
+                                            <li><a href="../can-tho.html" title="Cần Thơ">Cần Thơ</a></li>
+                                            <li><a href="../hai-phong.html" title="Hải Phòng">Hải Phòng</a></li>
+                                            <li><a href="../da-nang.html" title="Đà Nẵng">Đà Nẵng</a></li>
+                                            <li><a href="../thua-thien-hue.html" title="Thừa Thiên Huế">Thừa Thiên Huế</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children ">
+                                        <a href="../../nha-cho-thue/default.htm" title="Nhà cho thuê">Nhà cho thuê</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="../../nha-cho-thue/tp-ho-chi-minh.html" title="TP Hồ Chí Minh">TP Hồ Chí Minh</a></li>
+                                            <li><a href="../../nha-cho-thue/ha-noi.html" title="Hà Nội">Hà Nội</a></li>
+                                            <li><a href="../../nha-cho-thue/binh-duong.html" title="Bình Dương">Bình Dương</a></li>
+                                            <li><a href="../../nha-cho-thue/dong-nai.html" title="Đồng Nai">Đồng Nai</a></li>
+                                            <li><a href="../../nha-cho-thue/vung-tau.html" title="Vũng Tàu">Vũng Tàu</a></li>
+                                            <li><a href="../../nha-cho-thue/can-tho.html" title="Cần Thơ">Cần Thơ</a></li>
+                                            <li><a href="../../nha-cho-thue/hai-phong.html" title="Hải Phòng">Hải Phòng</a></li>
+                                            <li><a href="../../nha-cho-thue/da-nang.html" title="Đà Nẵng">Đà Nẵng</a></li>
+                                            <li><a href="../../nha-cho-thue/thua-thien-hue.html" title="Thừa Thiên Huế">Thừa Thiên Huế</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children ">
+                                        <a href="../../tim-nguoi-o-ghep/default.htm" title="Tìm người ở ghép">Tìm người ở ghép</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="../../tim-nguoi-o-ghep/tp-ho-chi-minh.html" title="TP Hồ Chí Minh">TP Hồ Chí Minh</a></li>
+                                            <li><a href="../../tim-nguoi-o-ghep/ha-noi.html" title="Hà Nội">Hà Nội</a></li>
+                                            <li><a href="../../tim-nguoi-o-ghep/binh-duong.html" title="Bình Dương">Bình Dương</a></li>
+                                            <li><a href="../../tim-nguoi-o-ghep/dong-nai.html" title="Đồng Nai">Đồng Nai</a></li>
+                                            <li><a href="../../tim-nguoi-o-ghep/vung-tau.html" title="Vũng Tàu">Vũng Tàu</a></li>
+                                            <li><a href="../../tim-nguoi-o-ghep/can-tho.html" title="Cần Thơ">Cần Thơ</a></li>
+                                            <li><a href="../../tim-nguoi-o-ghep/hai-phong.html" title="Hải Phòng">Hải Phòng</a></li>
+                                            <li><a href="../../tim-nguoi-o-ghep/da-nang.html" title="Đà Nẵng">Đà Nẵng</a></li>
+                                            <li><a href="../../tim-nguoi-o-ghep/thua-thien-hue.html" title="Thừa Thiên Huế">Thừa Thiên Huế</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="../../gioi-thieu.html">Giới thiệu</a>
+                                    </li>
+                                    <li>
+                                        <a href="../../huong-dan.html">Hướng dẫn</a>
+                                    </li>
+                                    <li>
+                                        <a href="../../dang-tin.html" title="Đăng tin"><i class="fa fa-pencil-square-o"></i> ĐĂNG TIN</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbarTop hidden-xs">
+                    <div class="container">
+                        <div class="pull-left">
+                        </div>
+                        <div class="pull-right">
+                            <div class="user_welcome">
+                                <a rel="nofollow" class="btn-red" href="../../dang-nhap.html"><i class="fa fa-sign-in"></i> Đăng nhập</a>
+                                <a rel="nofollow" class="btn-red" href="../../dang-ky.html"><i class="fa fa-user-plus"></i> Đăng ký</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-banner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-4">
+                                <div class="logo">
+                                    <a href="../../default.htm">
+                                        <img src="../../content/images/logo.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-8 quangcao-header hidden-xs">
+                                <div class="quangcao-header-inner">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-menu hidden-xs">
+                    <div class="container">
+                        <nav class="navbar">
+                            
+                            <ul class="navbar-nav">
+                                <li class="">
+                                    <a href="../../default.htm">Trang chủ</a>
+                                </li>
+                                <li class="">
+                                    <a href="../../gioi-thieu.html">Giới thiệu</a>
+                                </li>
+                                <li class="">
+                                    <a href="../../huong-dan.html">Hướng dẫn</a>
+                                </li>
+                                <li>
+                                    <a href="../../dang-tin.html" title="Đăng tin"><i class="fa fa-pencil-square-o"></i> ĐĂNG TIN</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <div class="main-container">
+                
+                <div class="container">
+                    <p id="breadcrumbs">
+                        <i class="fa fa-home"></i>
+                        <span xmlns:v="http://rdf.data-vocabulary.org/#">
+                            <span typeof="v:Breadcrumb">
+                                <a href="../../default.htm" rel="v:url" property="v:title">Trang chủ</a>
+                                <i class="fa fa-angle-double-right"></i>
+                                <a href='../default.htm' rel="v:url" property="v:title">Cho thuê phòng trọ</a>
+                                <i class="fa fa-angle-double-right"></i>
+                                <a href='../tp-ho-chi-minh.html' rel="v:url" property="v:title">TP Hồ Chí Minh</a>
+                                <i class="fa fa-angle-double-right"></i>
+                                <a href='../17c/binh-thanh.html' rel="v:url" property="v:title">Bình Thạnh</a>
+                            </span>
+                        </span>
+                    </p>
+                    
+                    <div class="searchbar_top hidden-xs">
+                        <div class="searchbar_top_body">
+                            <form action="/tim-kiem.html" method="GET" name="frmSearch" id="frmSearch">
+                                <div class="box-search">
+                                    <h3 class="title">Tìm kiếm nhanh</h3>
+                                    
+                                    <div class="bs-search">
+                                        <button class="btn btn-warning btn-block">Tìm ngay</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    
+                    
+                    
+                    <h1 class="post-title-lg text-primary">
+                    <a href="phong-tro-cao-cap-canh-so-thu-q1.html" class="post_link" style="color:#015f95;">PHÒNG TRỌ CAO CẤP CẠNH SỞ THÚ, Q1</a>
+                    </h1>
+                    <div class="hidden-xs">
+                        <div class="navigation_post">
+                            <div class="navigation_post_left">
+                                <ul>
+                                    <li><a class="click-to-post" href="#_thongtinchung">Thông tin chung</a></li>
+                                    <li><a class="click-to-post" href="#_motachitiet">Mô tả chi tiết</a></li>
+                                    
+                                    <li><a class="click-to-post" href="#_hinhanh">Hình ảnh</a></li>
+                                </ul>
+                            </div>
+                            <div class="navigation_post_right">
+                                <ul>
+                                    <li><a class="btn_contact_now_phone" href="tel_3A0918691702">Gọi ngay <strong>0918691702</strong></a></li>
+                                    <li><a id="saveNews" class="btn-savepost" href="javascript:void(0)" title="Lưu tin" rel="nofollow" onclick="productSaved(this,'152033');"><i class="fa fa-heart-o"></i> Lưu tin</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="ds_phongtro">
+                        <div class="row">
+                            <div class="col-xs-12 col-md-8 block-left">
+                                <div class="view-detail">
+                                    <div class="block-content" id="_thongtinchung">
+                                        <div class="block-content-meta">
+                                            <div class="table_overview hidden-lg hidden-sm">
+                                                <table class="table table-bordered">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="name">Địa chỉ</td>
+                                                            <td>230 PHAN VĂN HÂN, PHƯỜNG 17, QUẬN BÌNH THẠNH</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="name">Loại tin rao:</td>
+                                                            <td>
+                                                                <h2><a href="../default.htm">Cho thuê phòng trọ</a></h2>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="name">Mã tin:</td>
+                                                            <td>152033</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="name">Người đăng:</td>
+                                                            <td>NGUYỄN HUỲNH NHƯ</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="name">Ngày cập nhật:</td>
+                                                            <td>25/03/2019 10:48:33</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="name">Lượt xem:</td>
+                                                            <td>142</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="name">Diện tích:</td>
+                                                            <td>30 m²</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="name">Giá:</td>
+                                                            <td> <span class="price">5,800,000 vnđ</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="2">
+                                                                <div class="phone_button"> <a href="tel_3A0918691702" class="_js-get-phone" data-phone="0918691702"><i class="fa fa-phone" aria-hidden="true"></i> <span>0918691702</span></a></div>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <div class="post_summary_wrapper hidden-xs">
+                                                <div class="post_summary-header">
+                                                    <h4>Thông tin chung</h4>
+                                                </div>
+                                                <div class="post_summary clearfix">
+                                                    <div class="summary_row clearfix">
+                                                        <div class="post_summary_left fullwidth">
+                                                            <div class="summary_item_headline">Địa chỉ:</div>
+                                                            <div class="summary_item_info">230 PHAN VĂN HÂN, PHƯỜNG 17, QUẬN BÌNH THẠNH</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="summary_row clearfix">
+                                                        <div class="post_summary_left">
+                                                            <div class="summary_item_headline">Loại tin rao:</div>
+                                                            <div class="summary_item_info">
+                                                                <h2><a href="../default.htm">Cho thuê phòng trọ</a></h2>
+                                                            </div>
+                                                        </div>
+                                                        <div class="post_summary_right">
+                                                            <div class="summary_item_headline">Mã tin:</div>
+                                                            <div class="summary_item_info">152033</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="summary_row clearfix">
+                                                        <div class="post_summary_left">
+                                                            <div class="summary_item_headline">Người đăng:</div>
+                                                            <div class="summary_item_info">NGUYỄN HUỲNH NHƯ</div>
+                                                        </div>
+                                                        <div class="post_summary_right">
+                                                            <div class="summary_item_headline">Điện thoại:</div>
+                                                            <div class="summary_item_info summary_item_info_phone"> <a href="tel_3A0918691702" class="js-get-phone" data-phone="0918691702"><i class="fa fa-phone" aria-hidden="true"></i> <span>0918691702</span></a></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="summary_row clearfix">
+                                                        <div class="post_summary_left">
+                                                            <div class="summary_item_headline">Ngày cập nhật:</div>
+                                                            <div class="summary_item_info">25/03/2019 10:48:33</div>
+                                                        </div>
+                                                        <div class="post_summary_right">
+                                                            <div class="summary_item_headline">Diện tích:</div>
+                                                            <div class="summary_item_info summary_item_info_area">30 m²</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="summary_row clearfix">
+                                                        <div class="post_summary_left">
+                                                            <div class="summary_item_headline">Lượt xem:</div>
+                                                            <div class="summary_item_info">142</div>
+                                                        </div>
+                                                        <div class="post_summary_right">
+                                                            <div class="summary_item_headline">Giá cho thuê:</div>
+                                                            <div class="summary_item_info summary_item_info_price">5,800,000 vnđ</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="block-content" id="_motachitiet">
+                                        <div class="post_summary_wrapper">
+                                            <div class="post_summary-header">
+                                                <h4>Mô tả chi tiết</h4>
+                                            </div>
+                                            <div class="post_summary-content">
+                                                Chính chủ cho thuê:
+                                                <br/>Phòng có nội thất bao gồm :
+                                                <br/>-Giường
+                                                <br/>-Nệm
+                                                <br/>-Tủ quần áo
+                                                <br/>-Máy lạnh
+                                                <br/>-Tủ lạnh
+                                                <br/>-Toilet riêng
+                                                <br/>- Tòa nhà có thang máy, nhà giữ xe, bảo vệ 24/24
+                                                <br/>- Giờ giấc tự do, không chung chủ
+                                                <br/>Ở tòa nhà mình sạch sẽ có người vệ sinh khu vực chung mỗi ngày, an ninh, cư dân trong tòa nhà là tri thức có công việc ổn định.
+                                                <br/>Mọi chi tiết liên hệ quản lý: Chị Như
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="block-content" id="_hinhanh">
+                                        
+                                    </div>
+                                    <div class="article_share">
+                                        <h4 class="sharing_label"><b>Chia sẻ tin đăng đến bạn bè</b></h4>
+                                        <div class="social-share">
+                                            <ul>
+                                                <li><a href="#"><img src="../../content/images/icons/facebook.png" alt=""></a></li>
+                                                <li><a href="#"><img src="../../content/images/icons/twitter.png" alt=""></a></li>
+                                                <li><a href="#"><img src="../../content/images/icons/google-plus.png" alt=""></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="article_copy_link input-group">
+                                        <input class="form-control article_copy_link_input" id="article_copy_link_input" type="text" readonly="" value="https://thuephongtro.com/phong-tro/152033/phong-tro-cao-cap-canh-so-thu-q1.html">
+                                        <div class="input-group-addon"><button class="btn btn_copy_link2" data-clipboard-target="#article_copy_link_input">Copy link</button></div>
+                                    </div>
+                                </div>
+                                <div class="list-all-new">
+                                    <div class="feature-news">
+                                        <h3 class="title"><span>Tin Liên Quan</span></h3>
+                                    </div>
+                                    
+                                    <div class="news-item">
+                                        <div class="news-thumb">
+                                            <a href="../148824/cho-thue-phong-tro-sach-se-tolet-rieng-bao-dien-nuoc.html">
+                                                <img src="../../../https@static.thuephongtro.com/Uploads/Images/Thumb/20171020084005-1472146658058_219899.jpg" alt="">
+                                            </a>
+                                            <div class="icons">VIP</div>
+                                            
+                                        </div>
+                                        <div class="news-info">
+                                            <h3 class="news-title">
+                                            <a href="../148824/cho-thue-phong-tro-sach-se-tolet-rieng-bao-dien-nuoc.html" title="cho thuê phòng trọ sạch sẽ,tolet riêng,bao điện nước">cho thuê phòng trọ sạch sẽ,tolet riêng,bao điện nước</a>
+                                            </h3>
+                                            <div class="room-detail">
+                                                <div class="localtion">
+                                                    Khu vực: <b>B&#236;nh Thạnh</b> <span class="mgl-10">Diện tích: <b>18m<sup>2</sup></b></span>
+                                                    <div class="room-detail-item">
+                                                        <span class="time">07/04/2019</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="price"><span>Giá: 2,700,000 /th&#225;ng</span></div>
+                                            <div class="news-desc"> Cho thuê phòng trọ mới xây 15 mét vuông 2 người ở toilet riêng BAO ĐIỆN NƯỚC Có sẵn quạt miễn phí wifi truyền hình cáp máy nước nóng có sân thượng rộng thoáng mát có nhà để xe có chỗ nấu ăn gần đại học Văn Lang gần chợ</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-4 sidebar-right">
+                                
+                                
+                                <div class="sidebar-box">
+                                    <h3 class="sidebarbox-title">
+                                    <span><i class="fa fa-bars"></i>Cho thuê phòng trọ tại Bình Thạnh</span>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="searchbar_top visible-xs">
+                    <div class="searchbar_top_body">
+                        <form action="/tim-kiem.html" method="GET" name="frmSearch" id="frmSearch_mb">
+                            <div class="box-search">
+                                <h3 class="title">Tìm kiếm nhanh</h3>
+                                <div class="bs-content">
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-6 col-md-2">
+                                            <select id="ddlCategory" name="category" class="form-control">
+                                                <option value="">Chọn danh mục</option>
+                                                
+                                                <option value="0400" selected>Cho thuê phòng trọ</option>
+                                                <option value="0600" >Nhà cho thuê</option>
+                                                <option value="0500" >Tìm người ở ghép</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-6 col-md-2">
+                                            <select id="ddlArea" name="area" class="form-control">
+                                                <option value="">Diện tích</option>
+                                                
+                                                <option value="0-20" >&lt;20 m2</option>
+                                                <option value="20-40" selected>20 - 40 m2</option>
+                                                <option value="40-80" >40 - 80 m2</option>
+                                                <option value="80-100" >80 - 100 m2</option>
+                                                <option value="100" >&gt;100 m2</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-6 col-md-2">
+                                            <select id="ddlPrice" name="price" class="form-control">
+                                                <option value="">Mức giá</option>
+                                                
+                                                <option value="0" >Thỏa thuận</option>
+                                                <option value="1-1000000" >&lt; 1 triệu</option>
+                                                <option value="1000000-2000000" >1 triệu - 2 triệu</option>
+                                                <option value="2000000-3000000" >2 triệu - 3 triệu</option>
+                                                <option value="3000000-5000000" >3 triệu - 5 triệu</option>
+                                                <option value="5000000" selected>&gt; 5 triệu</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-6 col-md-2">
+                                            <div class="bs-item" id="KeyDownEnterHome" style="background: none;">
+                                                <input class="form-control" name="id" type="text" placeholder="Tìm theo mã số tin">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bs-search">
+                                    <button class="btn btn-warning btn-block">Tìm ngay</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <footer class="page-footer">
+                <div class="footer-deco"></div>
+                <div class="footer-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <div class="footer-col">
+                                    <h2>Liên kết</h2>
+                                    <ul class="social-link">
+                                        <li><a href="#"><i class="fa fa-facebook-square"></i> Facebook</a></li>
+                                        <li><a href="#"><i class="fa fa-google-plus-square"></i> Google+</a></li>
+                                        <li><a href="#"><i class="fa fa-youtube-play"></i> Youtube</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <div class="footer-col">
+                                    <h2>Thanh toán</h2>
+                                    <ul class="thanhtoan">
+                                        <li><a href="#"><img src="../../content/images/wepay.png" alt=""></a></li>
+                                        <li><a href="#"><img src="../../content/images/btn-android.png" alt=""></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <div class="footer-col">
+                                    <h2>Hỗ trợ khách hàng</h2>
+                                    <ul class="support-link">
+                                        <li><a href="#">Trung tâm trợ giúp</a></li>
+                                        <li><a href="#">An toàn mua bán</a></li>
+                                        <li><a href="#">Quy định cần biết</a></li>
+                                        <li><a href="#">Liên hệ hỗ trợ</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <div class="footer-col">
+                                    <h2>Về chúng tôi</h2>
+                                    <ul class="about-link">
+                                        <ul>
+                                            <li><a href="../../gioi-thieu.html" rel="nofollow">Giới thiệu</a></li>
+                                            <li><a href="../../quy-dinh.html" rel="nofollow">Quy định, điều khoản sử dụng</a></li>
+                                            <li><a href="../../huong-dan-dang-tin.html" rel="nofollow">Hướng dẫn đăng tin</a></li>
+                                            <li><a href="../../lien-he.html" rel="nofollow">Liên hệ</a></li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <div class="container">
+                        <div class="logo_footer">
+                            <a href="../../default.htm" title="Thuê phòng trọ">
+                            <img src="../../style/images/logo-footer.png" alt="Thuê phòng trọ"></a>
+                        </div>
+                        <div class="info_footer">
+                            <p>Copyright © 2011 - 2018 Thuephongtro.com, ® Ghi rõ nguồn "Thuephongtro.com" khi phát hành lại thông tin từ website này.</p>
+                            <p>KÊNH THÔNG TIN HÀNG ĐẦU VỀ PHÒNG TRỌ TẠI VIỆT NAM</p>
+                            <p class="info_ct">
+                                <span>Hotline:  09678.333.78</span>
+                            </p>
+                            <p class="info_ct">
+                                <a style="border: none; margin: 0; padding: 0" rel="nofollow" href="mailto:nhatroviet@gmail.com?Subject=Liên hệ-nhatroviet@gmail.com" target="_top">Email: nhatroviet@gmail.com</a>
+                                <!--a href="skype:thuephongtro?chat" rel="nofollow">Skype: Thuê phòng trọ</a-->
+                                <!-- href="ymsgr:sendim?thuephongtro" rel="nofollow">Yahoo: Thuê phòng trọ</a-->
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <a class="back-to-top" style="default.htm"><i class="fa fa-angle-up"></i></a>
+            </footer>
+        </div>
+        <script type="text/javascript" src="content/js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="content/libs/bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="content/libs/owlcarousel/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="content/libs/select2/select2.full.min.js"></script>
+        <script type="text/javascript" src="content/js/validator.js"></script>
+        <script type="text/javascript" src="content/js/main.js"></script>
+        <script type="text/javascript" src="js/common.min.js"></script>
+        <script type="text/javascript" src="js/jquery.cookie-1.4.1.js"></script>
+        <script type="text/javascript">
+        var domainCookie = 'thuephongtro.com';
+        var productId = '0';
+        var userId = '';
+        </script>
+        
+        
+        <script type="text/javascript" src="content/libs/lightgallery/js/lightgallery.min.js"></script>
+        <script type="text/javascript" src="content/libs/lightslider/js/lightslider.min.js"></script>
+        <script type="text/javascript" src="content/libs/lightgallery/js/lg-thumbnail.js"></script>
+        <script type="text/javascript" src="content/libs/lightgallery/js/lg-fullscreen.js"></script>
+        <script type="text/javascript" src="content/libs/lightgallery/js/lg-autoplay.js"></script>
+        <script type="text/javascript" src="content/libs/lightgallery/js/lg-zoom.js"></script>
+        <script type="text/javascript" src="content/libs/lightgallery/js/jquery.mousewheel.min.js"></script>
+        <script type="text/javascript">
+        productId = '152033';
+        $(function () {
+        $('button.btn_copy_link2').click(function () {
+        $("#article_copy_link_input").select();
+        document.execCommand("copy");
+        });
+        });
+        </script>
+        <script type="text/javascript">
+        $(function () {
+        $("#ddlProvince").change(function () {
+        var select = $("#ddlDistrict");
+        if ($(this).val() !== "") {
+        $.ajax({
+        url: "../../District/Get",
+        type: "POST",
+        dataType: "json",
+        data: { id: $(this).val() },
+        success: function (data) {
+        select.html('');
+        select.append('<option value="" selected="selected">Quận/Huyện</option>');
+        $.each(data, function (i, item) {
+        select.append('<option value="' + item.Id + '">' + item.Name + '</option>');
+        });
+        }
+        });
+        }
+        else {
+        select.html('');
+        select.append('<option value="" selected="selected">Quận/Huyện</option>');
+        }
+        });
+        });
+        </script>
+        <div id="boxProductSaved">
+            <div class="titlebox">
+                <span class="title">Tin đã lưu</span> <span id="deleteAll" title="Xóa tất cả" onclick="deleteAllNews();"></span><span id="btn_close" class="hideAll"></span>
+            </div>
+            <div>
+            <ul class="listbox" style="width: 100%; display: block"></ul>
+        </div>
+    </div>
+   
+</body>
+</html>
