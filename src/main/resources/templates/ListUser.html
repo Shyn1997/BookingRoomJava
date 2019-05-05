@@ -1,0 +1,30 @@
+<div xmlns:th="http://www.thymeleaf.org">
+	<div>
+	
+		<div class="row">
+			<div class="col-sm-1 th">name</div>
+			<div class="col-sm-1 th">id_number</div>
+			<div class="col-sm-1 th">type</div>
+			<div class="col-sm-1 th">phone</div>
+			<div class="col-sm-2 th">avt</div>
+			<div class="col-sm-1 th">start_at</div>
+			<div class="col-sm-1 th">email</div>
+			<div class="col-sm-2 th">address</div>
+			<div class="col-sm-2 th">action</div>
+		</div>
+		<div class="row" th:each="userinfo : ${userinfos}">
+			<div class="col-sm-1 th" th:utext="${userinfo.name}">..</div>
+			<div class="col-sm-1 th" th:utext="${userinfo.id_number}">..</div>
+			<div class="col-sm-1 th" th:utext="${userinfo.type}">..</div>
+			<div class="col-sm-1 th" th:utext="${userinfo.phone}">..</div>
+			<div class="col-sm-2 th" th:utext="${userinfo.avt}">..</div>
+			<div class="col-sm-1 th" th:utext="${userinfo.start_at}">..</div>
+			<div class="col-sm-1 th" th:utext="${userinfo.email}">..</div>
+			<div class="col-sm-2 th" th:utext="${userinfo.address}">..</div>
+			<div class="col-sm-2 th">
+			
+			</div>
+		</div>
+
+	</div>
+</div>
