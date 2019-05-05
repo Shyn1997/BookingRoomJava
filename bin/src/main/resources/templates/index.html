@@ -1,0 +1,1878 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Thuê Phòng Trọ - Website cho thuê phòng trọ nhà trọ số 1 Việt Nam</title>
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="thue phong tro, cho thuê phòng trọ, tim phong tro, thue nha tro, phòng trọ, nhà trọ"/>
+    <meta name="description" content="Cho thuê phòng trọ nhanh và hiệu quả số 1 Việt Nam, Website hỗ trợ đăng tin cho thuê phòng trọ, tìm thuê nhà trọ, ở ghép cho sinh viên và người đi làm." />
+
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/main.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/select2.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/boxsaved.css"/>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header-mobile visible-xs">
+                    <ul>
+                        <li><a href="dang-ky.html"><i class="fa fa-user-plus"></i><span>Đăng ký </span></a></li>
+                        <li><a href="dang-nhap.html"><i class="fa fa-sign-in"></i><span>Đăng nhập</span></a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#mobile_menu"><i class="fa fa-bars"></i><span>Danh mục</span></a></li>
+                        <li><a href="dang-tin.html"><i class="fa fa-plus-circle"></i><span>Đăng tin </span></a></li>
+                        <li><a href="#frmSearch_mb" class="click-to"><i class="fa fa-search"></i><span>Tìm kiếm</span></a></li>
+                    </ul>
+            </div>
+            <div class="modal right fade" id="mobile_menu" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times-circle"></i></button>
+                            <h4 class="modal-title">Menu</h4>
+                        </div>
+                        <div class="modal-body">
+                            <ul class="navbar-nav">
+                                <li class="menu-item-has-children ">
+                                    <a href="phong-tro/default.htm" title="Cho thuê phòng trọ">Cho thuê phòng trọ</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="phong-tro/tp-ho-chi-minh.html" title="TP Hồ Chí Minh">TP Hồ Chí Minh</a></li>
+                                        <li><a href="phong-tro/ha-noi.html" title="Hà Nội">Hà Nội</a></li>
+                                        <li><a href="phong-tro/binh-duong.html" title="Bình Dương">Bình Dương</a></li>
+                                        <li><a href="phong-tro/dong-nai.html" title="Đồng Nai">Đồng Nai</a></li>
+                                        <li><a href="phong-tro/vung-tau.html" title="Vũng Tàu">Vũng Tàu</a></li>
+                                        <li><a href="phong-tro/can-tho.html" title="Cần Thơ">Cần Thơ</a></li>
+                                        <li><a href="phong-tro/hai-phong.html" title="Hải Phòng">Hải Phòng</a></li>
+                                        <li><a href="phong-tro/da-nang.html" title="Đà Nẵng">Đà Nẵng</a></li>
+                                        <li><a href="phong-tro/thua-thien-hue.html" title="Thừa Thiên Huế">Thừa Thiên Huế</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children ">
+                                    <a href="nha-cho-thue/default.htm" title="Nhà cho thuê">Nhà cho thuê</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="nha-cho-thue/tp-ho-chi-minh.html" title="TP Hồ Chí Minh">TP Hồ Chí Minh</a></li>
+                                        <li><a href="nha-cho-thue/ha-noi.html" title="Hà Nội">Hà Nội</a></li>
+                                        <li><a href="nha-cho-thue/binh-duong.html" title="Bình Dương">Bình Dương</a></li>
+                                        <li><a href="nha-cho-thue/dong-nai.html" title="Đồng Nai">Đồng Nai</a></li>
+                                        <li><a href="nha-cho-thue/vung-tau.html" title="Vũng Tàu">Vũng Tàu</a></li>
+                                        <li><a href="nha-cho-thue/can-tho.html" title="Cần Thơ">Cần Thơ</a></li>
+                                        <li><a href="nha-cho-thue/hai-phong.html" title="Hải Phòng">Hải Phòng</a></li>
+                                        <li><a href="nha-cho-thue/da-nang.html" title="Đà Nẵng">Đà Nẵng</a></li>
+                                        <li><a href="nha-cho-thue/thua-thien-hue.html" title="Thừa Thiên Huế">Thừa Thiên Huế</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children ">
+                                    <a href="tim-nguoi-o-ghep/default.htm" title="Tìm người ở ghép">Tìm người ở ghép</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="tim-nguoi-o-ghep/tp-ho-chi-minh.html" title="TP Hồ Chí Minh">TP Hồ Chí Minh</a></li>
+                                        <li><a href="tim-nguoi-o-ghep/ha-noi.html" title="Hà Nội">Hà Nội</a></li>
+                                        <li><a href="tim-nguoi-o-ghep/binh-duong.html" title="Bình Dương">Bình Dương</a></li>
+                                        <li><a href="tim-nguoi-o-ghep/dong-nai.html" title="Đồng Nai">Đồng Nai</a></li>
+                                        <li><a href="tim-nguoi-o-ghep/vung-tau.html" title="Vũng Tàu">Vũng Tàu</a></li>
+                                        <li><a href="tim-nguoi-o-ghep/can-tho.html" title="Cần Thơ">Cần Thơ</a></li>
+                                        <li><a href="tim-nguoi-o-ghep/hai-phong.html" title="Hải Phòng">Hải Phòng</a></li>
+                                        <li><a href="tim-nguoi-o-ghep/da-nang.html" title="Đà Nẵng">Đà Nẵng</a></li>
+                                        <li><a href="tim-nguoi-o-ghep/thua-thien-hue.html" title="Thừa Thiên Huế">Thừa Thiên Huế</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="gioi-thieu.html">Giới thiệu</a>
+                                </li>
+                                <li>
+                                    <a href="huong-dan.html">Hướng dẫn</a>
+                                </li>
+                                <li>
+                                    <a href="dang-tin.html" title="Đăng tin"><i class="fa fa-pencil-square-o"></i> ĐĂNG TIN</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navbarTop hidden-xs">
+                <div class="container">
+                    <div class="pull-left">
+                        <div class="social-like">
+                            <div class="fb-like fb_iframe_widget" data-href="../https@www.facebook.com/timnhatro/default.htm" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&app_id=1748349635396853&container_width=0&href=https_253A_252F_252Fwww.facebook.com_252F074D46DC96"><span style="vertical-align: bottom; width: 147px; height: 20px;"><iframe name="f280b8b56ca9ef8" width="1000px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" title="fb:like Facebook Social Plugin" src="../https@www.facebook.com/v2.5/plugins/like.php@action=like&app_id=1748349635396853&channel=https_253A_252F_252Fstaticxx.facebook.com_252Fconnect_252Fxd_01860D7CAC" style="border: none; visibility: visible; width: 147px; height: 20px;" class=""></iframe></span></div>
+                            <div class="google-like" style="display: inline-block;">
+                                <!-- Place this tag in your head or just before your close body tag. -->
+                                <script src="../https@apis.google.com/js/platform.js" async="" defer="" gapi_processed="true">
+                                    { lang: 'vi' }
+                                </script>
+                                <!-- Place this tag where you want the +1 button to render. -->
+                                <div id="___plusone_0" style="text-indent: 0px; margin: 0px; padding: 0px; background: transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 38px; height: 24px;"><iframe ng-non-bindable="" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 38px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 24px;" tabindex="0" vspace="0" width="100%" id="I0_1529339623330" name="I0_1529339623330" src="../https@apis.google.com/u/0/se/0/_/+1/fastbutton@usegapi=1&size=standard&annotation=inline&width=&hl=vi&origin=https_253A_252F_252Fthuephongtro.com&amp;url=https_253A_252F_252Fplus.google.com_252F%2BPhongtro123chothuenhatro&amp;gsrc=3p&amp;ic=1&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.vi.FLYT8IScbFQ.O%2Fm%3D__features__%2Fam%3DQQE%2Frt%3Dj%2Fd%3D1%2Frs%3DAGLTcCOXNHsxtHd0PnY4WFlbPHe08qYrqQ#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh%2Conload&amp;id=I0_1529339623330&amp;_gfid=I0_1529339623330&amp;parent=https%3A%2F%2Fthuephongtro.com&amp;pfname=&amp;rpctoken=48831655" data-gapiattached="true" title="G+"></iframe></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pull-right">
+                            <div class="user_welcome">
+        <a rel="nofollow" class="btn-red" href="dang-nhap.html"><i class="fa fa-sign-in"></i> Đăng nhập</a>
+        <a rel="nofollow" class="btn-red" href="dang-ky.html"><i class="fa fa-user-plus"></i> Đăng ký</a>
+    </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="header-banner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-4">
+                            <div class="logo">
+                                <a href="default.htm">
+                                    <img src="content/images/logo.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-8 quangcao-header hidden-xs">
+                            <div class="quangcao-header-inner">
+                                 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-menu hidden-xs">
+                <div class="container">
+                    <nav class="navbar">
+                        
+<ul class="navbar-nav">
+    <li class="current-menu-item">
+        <a href="default.htm">Trang chủ</a>
+    </li>
+        <li class="menu-item-has-children ">
+            <a href="phong-tro/default.htm" title="Cho thuê phòng trọ">Cho thuê phòng trọ</a>
+            <ul class="sub-menu">
+        <li><a href="phong-tro/tp-ho-chi-minh.html" title="TP Hồ Chí Minh">TP Hồ Chí Minh</a></li>
+        <li><a href="phong-tro/ha-noi.html" title="Hà Nội">Hà Nội</a></li>
+        <li><a href="phong-tro/binh-duong.html" title="Bình Dương">Bình Dương</a></li>
+        <li><a href="phong-tro/dong-nai.html" title="Đồng Nai">Đồng Nai</a></li>
+        <li><a href="phong-tro/vung-tau.html" title="Vũng Tàu">Vũng Tàu</a></li>
+        <li><a href="phong-tro/can-tho.html" title="Cần Thơ">Cần Thơ</a></li>
+        <li><a href="phong-tro/hai-phong.html" title="Hải Phòng">Hải Phòng</a></li>
+        <li><a href="phong-tro/da-nang.html" title="Đà Nẵng">Đà Nẵng</a></li>
+        <li><a href="phong-tro/thua-thien-hue.html" title="Thừa Thiên Huế">Thừa Thiên Huế</a></li>
+</ul>
+        </li>
+        <li class="menu-item-has-children ">
+            <a href="nha-cho-thue/default.htm" title="Nhà cho thuê">Nhà cho thuê</a>
+            <ul class="sub-menu">
+        <li><a href="nha-cho-thue/tp-ho-chi-minh.html" title="TP Hồ Chí Minh">TP Hồ Chí Minh</a></li>
+        <li><a href="nha-cho-thue/ha-noi.html" title="Hà Nội">Hà Nội</a></li>
+        <li><a href="nha-cho-thue/binh-duong.html" title="Bình Dương">Bình Dương</a></li>
+        <li><a href="nha-cho-thue/dong-nai.html" title="Đồng Nai">Đồng Nai</a></li>
+        <li><a href="nha-cho-thue/vung-tau.html" title="Vũng Tàu">Vũng Tàu</a></li>
+        <li><a href="nha-cho-thue/can-tho.html" title="Cần Thơ">Cần Thơ</a></li>
+        <li><a href="nha-cho-thue/hai-phong.html" title="Hải Phòng">Hải Phòng</a></li>
+        <li><a href="nha-cho-thue/da-nang.html" title="Đà Nẵng">Đà Nẵng</a></li>
+        <li><a href="nha-cho-thue/thua-thien-hue.html" title="Thừa Thiên Huế">Thừa Thiên Huế</a></li>
+</ul>
+        </li>
+        <li class="menu-item-has-children ">
+            <a href="tim-nguoi-o-ghep/default.htm" title="Tìm người ở ghép">Tìm người ở ghép</a>
+            <ul class="sub-menu">
+        <li><a href="tim-nguoi-o-ghep/tp-ho-chi-minh.html" title="TP Hồ Chí Minh">TP Hồ Chí Minh</a></li>
+        <li><a href="tim-nguoi-o-ghep/ha-noi.html" title="Hà Nội">Hà Nội</a></li>
+        <li><a href="tim-nguoi-o-ghep/binh-duong.html" title="Bình Dương">Bình Dương</a></li>
+        <li><a href="tim-nguoi-o-ghep/dong-nai.html" title="Đồng Nai">Đồng Nai</a></li>
+        <li><a href="tim-nguoi-o-ghep/vung-tau.html" title="Vũng Tàu">Vũng Tàu</a></li>
+        <li><a href="tim-nguoi-o-ghep/can-tho.html" title="Cần Thơ">Cần Thơ</a></li>
+        <li><a href="tim-nguoi-o-ghep/hai-phong.html" title="Hải Phòng">Hải Phòng</a></li>
+        <li><a href="tim-nguoi-o-ghep/da-nang.html" title="Đà Nẵng">Đà Nẵng</a></li>
+        <li><a href="tim-nguoi-o-ghep/thua-thien-hue.html" title="Thừa Thiên Huế">Thừa Thiên Huế</a></li>
+</ul>
+        </li>
+    <li class="">
+        <a href="gioi-thieu.html">Giới thiệu</a>
+    </li>
+    <li class="">
+        <a href="huong-dan.html">Hướng dẫn</a>
+    </li>
+    <li>
+        <a href="dang-tin.html" title="Đăng tin"><i class="fa fa-pencil-square-o"></i> ĐĂNG TIN</a>
+    </li>
+</ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div class="main-container">
+            
+<div class="container">
+    
+    
+<div class="page-desc text-center">
+    <h1>Website cho thuê phòng trọ, nhà trọ số 1 Việt Nam</h1>
+    <p>Cho thuê phòng trọ, nhà trọ số 1 Việt Nam - Website đăng tin cho thuê phòng trọ, tìm phòng trọ nhanh, hiệu quả với hơn 90.000+ tin đăng và hơn 2.000.000 lượt xem mỗi tháng. <b>cho thuê phòng trọ, nhà trọ, thuê nhà nguyên căn, cho thuê căn hộ, tìm người ở ghép...</b> Vì vậy tin của bạn đăng trên website sẽ tiếp cận với nhiều khách hàng hơn, do đó giao dịch nhanh hơn, tiết kiệm chi phí hơn.</p>
+</div>
+
+    <div class="searchbar_top hidden-xs">
+        <div class="searchbar_top_body">
+<form action="tim-kiem.html" method="GET" name="frmSearch" id="frmSearch">
+    <div class="box-search">
+        <h3 class="title">Tìm kiếm nhanh</h3>
+        <div class="bs-content">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-2">
+                    <select id="ddlCategory" name="category" class="form-control">
+                        <option value="">Chọn danh mục</option>
+                        
+    <option value="0400" >Cho thuê phòng trọ</option>
+    <option value="0600" >Nhà cho thuê</option>
+    <option value="0500" >Tìm người ở ghép</option>
+
+                    </select>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-2">
+                    <select id="ddlProvince" name="province" class="form-control">
+                        <option value="">Tỉnh/Thành phố</option>
+                        
+    <option value="1" >TP Hồ Chí Minh</option>
+    <option value="2" >Hà Nội</option>
+    <option value="43" >Bình Dương</option>
+    <option value="47" >Đồng Nai</option>
+    <option value="51" >Vũng Tàu</option>
+    <option value="54" >Cần Thơ</option>
+    <option value="3" >Hải Phòng</option>
+    <option value="4" >Đà Nẵng</option>
+    <option value="32" >Thừa Thiên Huế</option>
+    <option value="5" >Hà Giang</option>
+    <option value="6" >Cao Bằng</option>
+    <option value="7" >Lai Châu</option>
+    <option value="8" >Lào Cai</option>
+    <option value="9" >Tuyên Quang</option>
+    <option value="10" >Lạng Sơn</option>
+    <option value="11" >Bắc Kạn</option>
+    <option value="12" >Thái Nguyên</option>
+    <option value="13" >Yên Bái</option>
+    <option value="14" >Sơn La</option>
+    <option value="15" >Phú Thọ</option>
+    <option value="16" >Vĩnh Phúc</option>
+    <option value="17" >Quảng Ninh</option>
+    <option value="18" >Bắc Giang</option>
+    <option value="19" >Bắc Ninh</option>
+    <option value="20" >Hải Dương</option>
+    <option value="21" >Hưng Yên</option>
+    <option value="22" >Hoà Bình</option>
+    <option value="23" >Hà Nam</option>
+    <option value="24" >Nam Định</option>
+    <option value="25" >Thái Bình</option>
+    <option value="26" >Ninh Bình</option>
+    <option value="27" >Thanh Hoá</option>
+    <option value="28" >Nghệ An</option>
+    <option value="29" >Hà Tĩnh</option>
+    <option value="30" >Quảng Bình</option>
+    <option value="31" >Quảng Trị</option>
+    <option value="33" >Quảng Nam</option>
+    <option value="34" >Quảng Ngãi</option>
+    <option value="35" >Kontum</option>
+    <option value="36" >Bình Định</option>
+    <option value="37" >Gia Lai</option>
+    <option value="38" >Phú Yên</option>
+    <option value="39" >Đăk Lăk</option>
+    <option value="40" >Khánh Hoà</option>
+    <option value="41" >Lâm Đồng</option>
+    <option value="42" >Bình Phước</option>
+    <option value="55" >Bến Tre</option>
+    <option value="56" >Vĩnh Long</option>
+    <option value="57" >Trà Vinh</option>
+    <option value="58" >Sóc Trăng</option>
+    <option value="59" >Bạc Liêu</option>
+    <option value="60" >Cà Mau</option>
+    <option value="61" >Điện Biên</option>
+    <option value="62" >Dăk Nông</option>
+    <option value="63" >Hậu Giang</option>
+    <option value="48" >Long An</option>
+    <option value="49" >Đồng Tháp</option>
+    <option value="50" >An Giang</option>
+    <option value="44" >Ninh Thuận</option>
+    <option value="45" >Tây Ninh</option>
+    <option value="46" >Bình Thuận</option>
+    <option value="52" >Tiền Giang</option>
+    <option value="53" >Kiên Giang</option>
+>
+                    </select>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-2">
+                    <select id="ddlDistrict" name="district" class="form-control">
+                        <option value="">Quận/Huyện</option>
+
+                    </select>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-2">
+                    <select id="ddlArea" name="area" class="form-control">
+                        <option value="">Diện tích</option>
+                        
+    <option value="0-20" >&lt;20 m2</option>
+    <option value="20-40" >20 - 40 m2</option>
+    <option value="40-80" >40 - 80 m2</option>
+    <option value="80-100" >80 - 100 m2</option>
+    <option value="100" >&gt;100 m2</option>
+
+                    </select>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-2">
+                    <select id="ddlPrice" name="price" class="form-control">
+                        <option value="">Mức giá</option>
+                        
+    <option value="0" >Thỏa thuận</option>
+    <option value="1-1000000" >&lt; 1 triệu</option>
+    <option value="1000000-2000000" >1 triệu - 2 triệu</option>
+    <option value="2000000-3000000" >2 triệu - 3 triệu</option>
+    <option value="3000000-5000000" >3 triệu - 5 triệu</option>
+    <option value="5000000" >&gt; 5 triệu</option>
+
+                    </select>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-2">
+                    <div class="bs-item" id="KeyDownEnterHome" style="background: none;">
+                        <input class="form-control" name="id" type="text" placeholder="Tìm theo mã số tin">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bs-search">
+            <button class="btn btn-warning btn-block">Tìm ngay</button>
+        </div>
+    </div>
+</form>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    
+<div class="khuvucnoibat">
+        <div class="content clearfix">
+            <div class="khuvucnoibat_bg hochiminh">
+                <a href="phong-tro/tp-ho-chi-minh.html" title="Phòng trọ Hồ Chí Minh"><span>Phòng trọ<br>Hồ Chí Minh</span></a>
+            </div>
+            <div class="khuvucnoibat_bg hanoi">
+                <a href="phong-tro/ha-noi.html" title="Phòng trọ Hà Nội"><span>Phòng trọ<br>Hà Nội</span></a>
+            </div>
+            <div class="khuvucnoibat_bg danang">
+                <a href="phong-tro/da-nang.html" title="Phòng trọ Đà Nẵng"><span>Phòng trọ<br>Đà Nẵng</span></a>
+            </div>
+        </div>
+    </div>
+
+    
+    
+    
+    
+    <div class="feature-news">
+        <h3 class="title"><span>Tin <a href="#">nổi bật</a></span></h3>
+        <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <div class="news-item item-hot">
+                        <div class="news-thumb">
+                            <a href="phong-tro/152033/phong-tro-cao-cap-canh-so-thu-q1.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/20190323103352-WuTa_2019-03-13_20-33-05-(1).jpg" alt="">
+                            </a>
+                            <div class="icons">HOT</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/152033/phong-tro-cao-cap-canh-so-thu-q1.html" title="PHÒNG TRỌ CAO CẤP CẠNH SỞ THÚ, Q1">PHÒNG TRỌ CAO CẤP CẠNH SỞ THÚ, Q1</a>
+                                
+                            </h3>
+                            <div class="price">
+                                <span>Giá: 5,800,000 /th&#225;ng</span>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                            </div>
+                            <div class="area">Diện tích: <b>30 m<sup>2</sup></b></div>
+                            <div class="localtion">Khu vực: <b>Bình Thạnh</b></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="news-item item-hot">
+                        <div class="news-thumb">
+                            <a href="phong-tro/152028/ky-tuc-xa-cao-cap-co-dich-vu-ve-sinh-135-17-19-nguyen-huu-canh-binh-thanh.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/20190321055027-ki-tuc-xa-giuong-tang-cao-cap-1494317560-1-2424368-1494317560.jpg" alt="">
+                            </a>
+                            <div class="icons">HOT</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/152028/ky-tuc-xa-cao-cap-co-dich-vu-ve-sinh-135-17-19-nguyen-huu-canh-binh-thanh.html" title="KÝ TÚC XÁ CAO CẤP CÓ DỊCH VỤ VỆ SINH 135/17/19 Nguyễn Hữu Cảnh, Bình Thạnh">KÝ TÚC XÁ CAO CẤP CÓ DỊCH VỤ VỆ SINH 135/17/19 Nguyễn Hữu Cảnh, Bình Thạnh</a>
+                                
+                            </h3>
+                            <div class="price">
+                                <span>Giá: Thỏa thuận</span>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                            </div>
+                            <div class="area">Diện tích: <b>0 m<sup>2</sup></b></div>
+                            <div class="localtion">Khu vực: <b>Bình Thạnh</b></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="news-item item-hot">
+                        <div class="news-thumb">
+                            <a href="phong-tro/151804/cho-thue-phong-moi-gio-tu-do-9-27-le-tan-be-quan-binh-tan-hotline-0901-961-861.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/20190213122206-5973ef2dcc702e2e7761.jpg" alt="">
+                            </a>
+                            <div class="icons">HOT</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/151804/cho-thue-phong-moi-gio-tu-do-9-27-le-tan-be-quan-binh-tan-hotline-0901-961-861.html" title="CHO THUÊ PHÒNG MỚI, GIỜ TỰ DO 9/27 LÊ TẤN BÊ, QUẬN BÌNH TÂN  HOTLINE 0901.961.861 ">CHO THUÊ PHÒNG MỚI, GIỜ TỰ DO 9/27 LÊ TẤN BÊ, QUẬN BÌNH TÂN  HOTLINE 0901.961.861 </a>
+                                
+                            </h3>
+                            <div class="price">
+                                <span>Giá: 1,800,000 /th&#225;ng</span>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                            </div>
+                            <div class="area">Diện tích: <b>20 m<sup>2</sup></b></div>
+                            <div class="localtion">Khu vực: <b>Bình Tân</b></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="news-item item-hot">
+                        <div class="news-thumb">
+                            <a href="phong-tro/151813/cho-thue-phong-moi-xay-gio-tu-do-an-ninh-325-12-le-van-quoi-q-binh-tan-hotline-0901-961-861.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/20190214014258-f446e07f861864463d09.jpg" alt="">
+                            </a>
+                            <div class="icons">HOT</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/151813/cho-thue-phong-moi-xay-gio-tu-do-an-ninh-325-12-le-van-quoi-q-binh-tan-hotline-0901-961-861.html" title="CHO THUÊ PHÒNG MỚI XÂY  GIỜ TỰ DO  AN NINH  325/12 LÊ VĂN QUỚI, Q.BÌNH TÂNHOTLINE 0901.961.861">CHO THUÊ PHÒNG MỚI XÂY  GIỜ TỰ DO  AN NINH  325/12 LÊ VĂN QUỚI, Q.BÌNH TÂNHOTLINE 0901.961.861</a>
+                                
+                            </h3>
+                            <div class="price">
+                                <span>Giá: 2,700,000 /th&#225;ng</span>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                            </div>
+                            <div class="area">Diện tích: <b>18 m<sup>2</sup></b></div>
+                            <div class="localtion">Khu vực: <b>Bình Tân</b></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="news-item item-hot">
+                        <div class="news-thumb">
+                            <a href="phong-tro/153090/cho-nu-thue-phong-32m2-sach-dep-an-ninh-tai-quan-binh-thanh.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/20190405104646-1.jpg" alt="">
+                            </a>
+                            <div class="icons">HOT</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/153090/cho-nu-thue-phong-32m2-sach-dep-an-ninh-tai-quan-binh-thanh.html" title="CHO NỮ THUÊ PHÒNG 32m2 SẠCH ĐẸP AN NINH TẠI QUẬN BÌNH THẠNH">CHO NỮ THUÊ PHÒNG 32m2 SẠCH ĐẸP AN NINH TẠI QUẬN BÌNH THẠNH</a>
+                                
+                            </h3>
+                            <div class="price">
+                                <span>Giá: 5,000,000 /th&#225;ng</span>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                            </div>
+                            <div class="area">Diện tích: <b>32 m<sup>2</sup></b></div>
+                            <div class="localtion">Khu vực: <b>Bình Thạnh</b></div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+
+    <div class="ds_phongtro">
+        <div class="row">
+            <div class="col-xs-12 col-md-8 block-left">
+                
+
+<ul class="nav nav-tabs local-tab">
+    <li class="active">
+        <a data-toggle="tab" href="#tphcm" aria-expanded="true">
+            Cho thuê phòng trọ, cho thuê nhà trọ, tìm phòng trọ
+        </a>
+    </li>
+</ul>
+    <div class="tab-content">
+        <div id="tphcm" class="tab-pane fade active in">
+            <div class="list-all-new">
+                    <div class="news-item item-vip1">
+                        <div class="news-thumb">
+                            <a href="phong-tro/151780/cho-thue-phong-cao-cap-co-may-lanh-co-gac-nuoc-nong-dac-biet-giat-say-mien-phi.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/20190201112923-20190131_081957.jpg" alt="">
+                            </a>
+                            <div class="icons">VIP</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/151780/cho-thue-phong-cao-cap-co-may-lanh-co-gac-nuoc-nong-dac-biet-giat-say-mien-phi.html" title="CHO THUÊ PHÒNG  CAO CẤP CÓ MÁY LẠNH,  CÓ GÁC,  NƯỚC NÓNG. ĐẶC BIỆT GIẶT SẤY MIỄN  PHÍ">CHO THUÊ PHÒNG  CAO CẤP CÓ MÁY LẠNH,  CÓ GÁC,  NƯỚC NÓNG. ĐẶC BIỆT GIẶT SẤY MIỄN  PHÍ</a>
+                            </h3>
+                            <div class="room-detail">
+                                <div class="localtion">
+                                    Khu vực: <b>Quận 7</b> <span class="mgl-10">Diện tích: <b>25m<sup>2</sup></b></span>
+                                    <div class="room-detail-item">
+                                        <span class="time">27/03/2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price"><span>Giá: 2,900,000 /th&#225;ng</span></div>
+                            <div class="news-desc"> Cho thuê phòng cao cấp tọa lạc mặt tiền đường nhựa rộng 8m. Vị trí gần chợ siêu thị gần trường học Trung tâm TDTT Quận 7 UBND phường Bình Thuận cách KCX Tân Thuận 500m và cách Phú Mỹ Hưng và UBND Quận khoảng 700m. Nhà mới xây dựng</div>
+                        </div>
+                    </div>
+                    <div class="news-item item-vip1">
+                        <div class="news-thumb">
+                            <a href="phong-tro/151998/cho-thue-nha-nguyen-can.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/default.jpg" alt="">
+                            </a>
+                            <div class="icons">VIP</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/151998/cho-thue-nha-nguyen-can.html" title="Cho thuê nhà nguyên căn">Cho thuê nhà nguyên căn</a>
+                            </h3>
+                            <div class="room-detail">
+                                <div class="localtion">
+                                    Khu vực: <b>B&#236;nh T&#226;n</b> <span class="mgl-10">Diện tích: <b>90m<sup>2</sup></b></span>
+                                    <div class="room-detail-item">
+                                        <span class="time">05/04/2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price"><span>Giá: 4,500,000 /th&#225;ng</span></div>
+                            <div class="news-desc">Cho thuê nhà nguyên căn Vĩnh LộcA Bình Chánh. Diện tích 5 x 12m có gác lửng. Nhà cách Đường Nguyễn Thị Tú 300m Cách ngã 4 Nguyễn Thị Tú - Võ Văn Vân 700m</div>
+                        </div>
+                    </div>
+                    <div class="news-item item-vip1">
+                        <div class="news-thumb">
+                            <a href="phong-tro/147055/phong-tro-day-du-noi-that-gan-phu-my-hung-quan-7.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/20170529091547-1.jpg" alt="">
+                            </a>
+                            <div class="icons">VIP</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/147055/phong-tro-day-du-noi-that-gan-phu-my-hung-quan-7.html" title="Phòng trọ đầy đủ nội thất gần Phú Mỹ Hưng  Quận 7">Phòng trọ đầy đủ nội thất gần Phú Mỹ Hưng  Quận 7</a>
+                            </h3>
+                            <div class="room-detail">
+                                <div class="localtion">
+                                    Khu vực: <b>Quận 7</b> <span class="mgl-10">Diện tích: <b>30m<sup>2</sup></b></span>
+                                    <div class="room-detail-item">
+                                        <span class="time">05/04/2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price"><span>Giá: 4,500,000 /th&#225;ng</span></div>
+                            <div class="news-desc"> - Tọa lạc tại vị trí: Số 5 Đường 1A P.Phú Mỹ Quận 7. (gần công viên khu dân cư Belleza và Era Town) - THÔNG TIN CHI TIẾT: Phòng 25m2 - 4.5tr/tháng - Các phòng đều được trang bị đầy đủ các thiết bị hiện đại: Máy lạnh Tủ</div>
+                        </div>
+                    </div>
+                    <div class="news-item item-vip1">
+                        <div class="news-thumb">
+                            <a href="phong-tro/151843/phong-day-du-noi-that-tien-nghi-trung-tam-q7-moi-100-co-thang-may.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/20190218044928-17.jpg" alt="">
+                            </a>
+                            <div class="icons">VIP</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/151843/phong-day-du-noi-that-tien-nghi-trung-tam-q7-moi-100-co-thang-may.html" title="Phòng đầy đủ nội thất tiện nghi trung tâm Q7  Mới 100 có thang máy">Phòng đầy đủ nội thất tiện nghi trung tâm Q7  Mới 100 có thang máy</a>
+                            </h3>
+                            <div class="room-detail">
+                                <div class="localtion">
+                                    Khu vực: <b>Quận 7</b> <span class="mgl-10">Diện tích: <b>25m<sup>2</sup></b></span>
+                                    <div class="room-detail-item">
+                                        <span class="time">05/04/2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price"><span>Giá: 4,300,000 /th&#225;ng</span></div>
+                            <div class="news-desc"> Địa chỉ: 34 Phan Huy Thực - P.Tân Kiểng - Q.7 (gần Lottemart) ️ Phòng 25m2 - Giá 4.3tr/tháng ️ Phòng 27m2 - Giá 4.5tr/tháng ️ Phòng 30m2 - Giá 4.7tr/tháng Phòng được trang bị đầy đủ các thiết bị hiện đại: - Máy lạnh - Tủ lạnh - Kệ</div>
+                        </div>
+                    </div>
+                    <div class="news-item item-vip1">
+                        <div class="news-thumb">
+                            <a href="phong-tro/146602/phong-dep-cho-thue-mt-truong-chinh-du-tien-nghi-co-gac-lung-thang-may-gia-2-5-tr-3-tr.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/20181105010015-16522822_908961642540309_318722795_n.jpg" alt="">
+                            </a>
+                            <div class="icons">VIP</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/146602/phong-dep-cho-thue-mt-truong-chinh-du-tien-nghi-co-gac-lung-thang-may-gia-2-5-tr-3-tr.html" title="PHÒNG ĐẸP CHO THUÊ MT TRƯỜNG CHINH  ĐỦ TIỆN NGHI, CÓ GÁC LỬNG, THANG MÁY, GIÁ 2.5 TR  3 TR">PHÒNG ĐẸP CHO THUÊ MT TRƯỜNG CHINH  ĐỦ TIỆN NGHI, CÓ GÁC LỬNG, THANG MÁY, GIÁ 2.5 TR  3 TR</a>
+                            </h3>
+                            <div class="room-detail">
+                                <div class="localtion">
+                                    Khu vực: <b>T&#226;n Ph&#250;</b> <span class="mgl-10">Diện tích: <b>25m<sup>2</sup></b></span>
+                                    <div class="room-detail-item">
+                                        <span class="time">07/04/2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price"><span>Giá: 2,500,000 /th&#225;ng</span></div>
+                            <div class="news-desc"> - Phòng cho thuê rất đẹp chuẩn khách sạn đáp ứng tốt mọi nhu cầu của khách thuê phòng MT Trường Chinh P.Tân Sơn Nhì Quận Tân Phú. (MT sau: 26/42 Tân Sơn Nhì P.Tân Sơn Nhì Q.Tân Phú). Tòa nhà Được thiết kế như một khu chung cư mini</div>
+                        </div>
+                    </div>
+                    <div class="news-item item-vip1">
+                        <div class="news-thumb">
+                            <a href="phong-tro/151369/phong-moi-xay-cho-thue-42-36c4-ung-van-khiem-gia-tu-3-5tr-20m2.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/20190216090855-C4-1.jpg" alt="">
+                            </a>
+                            <div class="icons">VIP</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/151369/phong-moi-xay-cho-thue-42-36c4-ung-van-khiem-gia-tu-3-5tr-20m2.html" title="Phòng mới xây cho thuê 42/36C4 Ung Văn Khiêm, giá từ 3,5tr 20m2">Phòng mới xây cho thuê 42/36C4 Ung Văn Khiêm, giá từ 3,5tr 20m2</a>
+                            </h3>
+                            <div class="room-detail">
+                                <div class="localtion">
+                                    Khu vực: <b>B&#236;nh Thạnh</b> <span class="mgl-10">Diện tích: <b>20m<sup>2</sup></b></span>
+                                    <div class="room-detail-item">
+                                        <span class="time">06/04/2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price"><span>Giá: 3,500,000 /th&#225;ng</span></div>
+                            <div class="news-desc"> 2 tòa nhà cạnh nhau số 42/36C4 Ung Văn Khiêm F25 Bình Thạnh. Phòng trong tòa nhà mới xây gara để xe nước nóng wifi. Phòng có cửa sổ lớn đón ánh sáng tự nhiên rất thoáng mát. Các phòng đều có bếp và wc riêng. Hình chụp phòng thật.</div>
+                        </div>
+                    </div>
+                    <div class="news-item item-vip1">
+                        <div class="news-thumb">
+                            <a href="phong-tro/153099/cho-thue-nha-nguyen-can-hem-100-duong-ba-trac-p2-q8.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/20190406123551-02a2c43208adeaf3b3bc.jpg" alt="">
+                            </a>
+                            <div class="icons">VIP</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/153099/cho-thue-nha-nguyen-can-hem-100-duong-ba-trac-p2-q8.html" title="Cho Thuê Nhà Nguyên Căn Hẻm 100 Dương Bá trạc P2 Q8">Cho Thuê Nhà Nguyên Căn Hẻm 100 Dương Bá trạc P2 Q8</a>
+                            </h3>
+                            <div class="room-detail">
+                                <div class="localtion">
+                                    Khu vực: <b>Quận 8</b> <span class="mgl-10">Diện tích: <b>70m<sup>2</sup></b></span>
+                                    <div class="room-detail-item">
+                                        <span class="time">06/04/2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price"><span>Giá: 7,500,000 /th&#225;ng</span></div>
+                            <div class="news-desc">Cho Thuê nhà Nguyên căn Hẻm 100 Dương bá trạc 1 Phòng Ngủ lớn (2VC 2 Con) 1 Khách 1 Bếp 2 tolet 2 máy nóng lạnh Bếp . Máy lạnh rèm cửa Kệ bếp ..... ưu tiên ở lâu dài</div>
+                        </div>
+                    </div>
+                    <div class="news-item item-vip1">
+                        <div class="news-thumb">
+                            <a href="phong-tro/151217/day-phong-tro-rieng-biet-co-gac-lung-ke-bep-kg-ton-phi-xe-gio-tu-do.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/20180904011053-IMG_6228.JPG" alt="">
+                            </a>
+                            <div class="icons">VIP</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/151217/day-phong-tro-rieng-biet-co-gac-lung-ke-bep-kg-ton-phi-xe-gio-tu-do.html" title="Dãy PHÒNG TRỌ RIÊNG BIỆT, CÓ GÁC LỬNG, KỆ BẾP. KG TỐN PHÍ XE, GIỜ TỰ DO">Dãy PHÒNG TRỌ RIÊNG BIỆT, CÓ GÁC LỬNG, KỆ BẾP. KG TỐN PHÍ XE, GIỜ TỰ DO</a>
+                            </h3>
+                            <div class="room-detail">
+                                <div class="localtion">
+                                    Khu vực: <b>Quận 7</b> <span class="mgl-10">Diện tích: <b>30m<sup>2</sup></b></span>
+                                    <div class="room-detail-item">
+                                        <span class="time">07/04/2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price"><span>Giá: 2,700,000 /th&#225;ng</span></div>
+                            <div class="news-desc"> - CHO THUÊ PHÒNG TRỌ NẰM TRONG DÃY PHÒNG TRỆT RIÊNG BIỆT đường Huỳnh Tấn Phát quận 7 gần khu chế xuất Tân Thuận gần siêu thị BigC gần các trường đại học: ĐH Tôn Đức Thắng TC Marketing ĐH Nguyễn Tất Thành ... Đi qua quận 1 q3 q4</div>
+                        </div>
+                    </div>
+                    <div class="news-item item-vip1">
+                        <div class="news-thumb">
+                            <a href="phong-tro/153098/cho-thue-phong-tro-quan-10-su-van-hanh-noi-dai-gan-van-hanh-mall-danh-cho-nu.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/20190406124008-881b207dcedd2c8375cc.jpg" alt="">
+                            </a>
+                            <div class="icons">VIP</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/153098/cho-thue-phong-tro-quan-10-su-van-hanh-noi-dai-gan-van-hanh-mall-danh-cho-nu.html" title="CHO THUÊ PHÒNG TRỌ QUẬN 10, SƯ VẠN HẠNH NỐI DÀI, GẦN VẠN HẠNH MALL DÀNH cho Nữ">CHO THUÊ PHÒNG TRỌ QUẬN 10, SƯ VẠN HẠNH NỐI DÀI, GẦN VẠN HẠNH MALL DÀNH cho Nữ</a>
+                            </h3>
+                            <div class="room-detail">
+                                <div class="localtion">
+                                    Khu vực: <b>Quận 10</b> <span class="mgl-10">Diện tích: <b>20m<sup>2</sup></b></span>
+                                    <div class="room-detail-item">
+                                        <span class="time">06/04/2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price"><span>Giá: 2,500,000 /th&#225;ng</span></div>
+                            <div class="news-desc"> Cho thuê phòng chỉ dành cho Nữ. Vị Trí: Nằm ngay VẠN HẠNH MALL siêu thị Big C Tô Hiến Thành Đại học Ngoại Ngữ Tin Học. - GIÁ THUÊ: Giá phòng: 2 5 triệu/tháng Cọc 1 tháng. - Điện: 3000đ/kwh - Nước máy: 50k/người TIỆN NGHI : - Giờ</div>
+                        </div>
+                    </div>
+                    <div class="news-item item-vip1">
+                        <div class="news-thumb">
+                            <a href="phong-tro/151756/phong-tro-quan-1-gia-re.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/20190115043804-49793761_273091970025253_8078279853901611008_n.jpg" alt="">
+                            </a>
+                            <div class="icons">VIP</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/151756/phong-tro-quan-1-gia-re.html" title="phòng trọ quận 1 gía rẻ">phòng trọ quận 1 gía rẻ</a>
+                            </h3>
+                            <div class="room-detail">
+                                <div class="localtion">
+                                    Khu vực: <b>Quận 1</b> <span class="mgl-10">Diện tích: <b>20m<sup>2</sup></b></span>
+                                    <div class="room-detail-item">
+                                        <span class="time">05/04/2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price"><span>Giá: 1,500,000 /th&#225;ng</span></div>
+                            <div class="news-desc"> Nhà mới gần vòng xoay điện biên phủ sát ĐH Hồng Bàng còn trống 04 phòng cho thuê sạch sẽ thoáng mát vệ sinh khép kín. Giờ giấc tự do lối đi riêng được nấu ăn. Điện nước tính theo hóa đơn giá nhà nước thích hợp cho nhân viên</div>
+                        </div>
+                    </div>
+                    <div class="news-item item-vip1">
+                        <div class="news-thumb">
+                            <a href="phong-tro/153090/cho-nu-thue-phong-32m2-sach-dep-an-ninh-tai-quan-binh-thanh.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/20190405104646-1.jpg" alt="">
+                            </a>
+                            <div class="icons">VIP</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/153090/cho-nu-thue-phong-32m2-sach-dep-an-ninh-tai-quan-binh-thanh.html" title="CHO NỮ THUÊ PHÒNG 32m2 SẠCH ĐẸP AN NINH TẠI QUẬN BÌNH THẠNH">CHO NỮ THUÊ PHÒNG 32m2 SẠCH ĐẸP AN NINH TẠI QUẬN BÌNH THẠNH</a>
+                            </h3>
+                            <div class="room-detail">
+                                <div class="localtion">
+                                    Khu vực: <b>B&#236;nh Thạnh</b> <span class="mgl-10">Diện tích: <b>32m<sup>2</sup></b></span>
+                                    <div class="room-detail-item">
+                                        <span class="time">07/04/2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price"><span>Giá: 5,000,000 /th&#225;ng</span></div>
+                            <div class="news-desc"> Địa chỉ: 14/15 Ngô Tất Tố p19 quận Bình Thạnh. Diện tích: 32m2. Có thể ở 3-4 người. Khu vực yên tĩnh siêu an ninh camera gắn đầy hẻm. Nhà có chỗ để xe miễn phí. Có nhà vệ sinh riêng trong phòng sạch sẽ rộng rãi. Phòng rộng rãi</div>
+                        </div>
+                    </div>
+                    <div class="news-item item-vip1">
+                        <div class="news-thumb">
+                            <a href="phong-tro/153097/phong-dep-full-tien-nghi-gio-tu-do-0908091064-ngay-cau-thi-nghe-xo-viet-nghe-tinh.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/20190406092653-_MG_7810.jpg" alt="">
+                            </a>
+                            <div class="icons">VIP</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/153097/phong-dep-full-tien-nghi-gio-tu-do-0908091064-ngay-cau-thi-nghe-xo-viet-nghe-tinh.html" title="PHÒNG ĐẸPFULL TIỆN NGHIGIỜ TỰ DO,0908091064NGAY CẦU THỊ NGHÈ XÔ VIẾT NGHỆ TĩNH">PHÒNG ĐẸPFULL TIỆN NGHIGIỜ TỰ DO,0908091064NGAY CẦU THỊ NGHÈ XÔ VIẾT NGHỆ TĩNH</a>
+                            </h3>
+                            <div class="room-detail">
+                                <div class="localtion">
+                                    Khu vực: <b>B&#236;nh Thạnh</b> <span class="mgl-10">Diện tích: <b>20m<sup>2</sup></b></span>
+                                    <div class="room-detail-item">
+                                        <span class="time">06/04/2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price"><span>Giá: 4,000,000 /th&#225;ng</span></div>
+                            <div class="news-desc"> PHÒNG CHO THUÊ FULL NỘI THẤT XÔ VIẾT NGHỆ TĨNH F.21 Q.BÌNH Thạnh - Nhà rộng thoáng mát khu dân trí cao tiện nghi thích hợp cho sinh viên gia đình người đi làm văn minh lịch sự. Nằm cách ngã tư Hàng xanh 5P là con đường chính đi</div>
+                        </div>
+                    </div>
+                    <div class="news-item item-vip1">
+                        <div class="news-thumb">
+                            <a href="phong-tro/151038/phong-tro-moi-xay-dep-nhu-khach-san-day-du-noi-that-gio-giac-tu-do.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/20180709110454-IMG_0379.JPG" alt="">
+                            </a>
+                            <div class="icons">VIP</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/151038/phong-tro-moi-xay-dep-nhu-khach-san-day-du-noi-that-gio-giac-tu-do.html" title="PHÒNG TRỌ MỚI XÂY, ĐẸP NHƯ KHÁCH SẠN, ĐẦY ĐỦ NỘI THẤT, GIỜ GIẤC TỰ DO">PHÒNG TRỌ MỚI XÂY, ĐẸP NHƯ KHÁCH SẠN, ĐẦY ĐỦ NỘI THẤT, GIỜ GIẤC TỰ DO</a>
+                            </h3>
+                            <div class="room-detail">
+                                <div class="localtion">
+                                    Khu vực: <b>T&#226;n Ph&#250;</b> <span class="mgl-10">Diện tích: <b>25m<sup>2</sup></b></span>
+                                    <div class="room-detail-item">
+                                        <span class="time">07/04/2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price"><span>Giá: 2,700,000 /th&#225;ng</span></div>
+                            <div class="news-desc"> - Cho thuê phòng trọ đẹp như hình đầy đủ nội thất như khách sạn nhà mới xây được vài tháng rất mới sạch đẹp. - Vị trí gần siêu thị AEON MALL Tân Phú công viên Sơn Kỳ gần các đường như: Lê Trọng Tấn Tân Kỳ Tân Qúy</div>
+                        </div>
+                    </div>
+                    <div class="news-item item-vip1">
+                        <div class="news-thumb">
+                            <a href="phong-tro/151723/phong-tro-moi-xay-dep-lung-linh-co-gac-ke-bep-ngay-le-trong-tan.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/20190111074544-2019_01_11_18_02_IMG_5F2539.JPG" alt="">
+                            </a>
+                            <div class="icons">VIP</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/151723/phong-tro-moi-xay-dep-lung-linh-co-gac-ke-bep-ngay-le-trong-tan.html" title="PHÒNG TRỌ MỚI XÂY ĐẸP LUNG LINH, CÓ GÁC, KỆ BẾP, NGAY LÊ TRỌNG TẤN">PHÒNG TRỌ MỚI XÂY ĐẸP LUNG LINH, CÓ GÁC, KỆ BẾP, NGAY LÊ TRỌNG TẤN</a>
+                            </h3>
+                            <div class="room-detail">
+                                <div class="localtion">
+                                    Khu vực: <b>T&#226;n Ph&#250;</b> <span class="mgl-10">Diện tích: <b>25m<sup>2</sup></b></span>
+                                    <div class="room-detail-item">
+                                        <span class="time">07/04/2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price"><span>Giá: 2,400,000 /th&#225;ng</span></div>
+                            <div class="news-desc"> Cho thuê Phòng trọ MỚI XÂY XONG 100% ĐẸP LUNG LINH @@ ĐẶC ĐIỂM: Phòng mới tinh 100% còn mùi sơn bạn là người ở đầu tiên đẹp như hình. Có ban công dài khá rộng mát mẻ đón gió. Có kệ bếp nấu ăn chậu rửa inox trong mỗi</div>
+                        </div>
+                    </div>
+                    <div class="news-item item-vip1">
+                        <div class="news-thumb">
+                            <a href="phong-tro/153101/cho-thue-pho-ng-tro-co-ga-c-sa-ch-se-and-thoa-ng-ma-t.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/20190406090320-IMG_0999.JPG" alt="">
+                            </a>
+                            <div class="icons">VIP</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/153101/cho-thue-pho-ng-tro-co-ga-c-sa-ch-se-and-thoa-ng-ma-t.html" title="CHO THUÊ PHÒNG TRỌ CÓ GÁC, SẠCH SẼ  THOÁNG MÁT">CHO THUÊ PHÒNG TRỌ CÓ GÁC, SẠCH SẼ  THOÁNG MÁT</a>
+                            </h3>
+                            <div class="room-detail">
+                                <div class="localtion">
+                                    Khu vực: <b>Quận 7</b> <span class="mgl-10">Diện tích: <b>22m<sup>2</sup></b></span>
+                                    <div class="room-detail-item">
+                                        <span class="time">06/04/2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price"><span>Giá: 2,300,000 /th&#225;ng</span></div>
+                            <div class="news-desc"> CHO THUÊ PHÒNG TRỌ CÓ GÁC TẠI HẼM 264 LÊ VĂN LƯƠNG P.TÂN HƯNG Q7 GẦN ĐẠI HỌC TÔN ĐỨC THẮNG ĐẠI HỌC NGUYỄN TẤT THÀNH GẦN SIÊU THỊ LOTTER MART GẦN CHỢ. KHU AN NINH SẠCH SẼ THOÁNG MÁT DIỆN TÍCH 22 M2 CÓ SÂN RỘNG ĐỂ XE TRUYỀN</div>
+                        </div>
+                    </div>
+                    <div class="news-item item-vip0">
+                        <div class="news-thumb">
+                            <a href="phong-tro/138534/phong-tro-moi-co-gac-lung-gio-giac-tu-do-tolet-rieng-ngay-trung-tam.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/20181025112138-IMG_6251.JPG" alt="">
+                            </a>
+                            <div class="icons">VIP</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/138534/phong-tro-moi-co-gac-lung-gio-giac-tu-do-tolet-rieng-ngay-trung-tam.html" title="PHÒNG TRỌ MỚI, CÓ GÁC LỬNG, GIỜ GIẤC TỰ DO, TOLET RIÊNG, NGAY TRUNG TÂM">PHÒNG TRỌ MỚI, CÓ GÁC LỬNG, GIỜ GIẤC TỰ DO, TOLET RIÊNG, NGAY TRUNG TÂM</a>
+                            </h3>
+                            <div class="room-detail">
+                                <div class="localtion">
+                                    Khu vực: <b>Quận 10</b> <span class="mgl-10">Diện tích: <b>25m<sup>2</sup></b></span>
+                                    <div class="room-detail-item">
+                                        <span class="time">07/04/2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price"><span>Giá: 3,000,000 /th&#225;ng</span></div>
+                            <div class="news-desc"> - Cho thuê phòng trọ ngay trung tâm QUẬN 10 kế bên đường Tô Hiến Thành gần công viên Lê Thị Riêng gần các Trường Đại Học: ĐH Bách Khoa ĐH Ngoại Ngữ Tin Học ĐH Y Khoa Phạm Ngọc Thạch .....đi qua quận 11 q1 q3 q5 q. Tân</div>
+                        </div>
+                    </div>
+                    <div class="news-item item-vip0">
+                        <div class="news-thumb">
+                            <a href="phong-tro/150660/phong-tro-moi-xay-xong-dep-nhu-mo-co-gac-lung-wc-rieng-gio-giac-tu-do.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/20180415064104-IMG_6238.JPG" alt="">
+                            </a>
+                            <div class="icons">VIP</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/150660/phong-tro-moi-xay-xong-dep-nhu-mo-co-gac-lung-wc-rieng-gio-giac-tu-do.html" title="PHÒNG TRỌ MỚI XÂY XONG, ĐẸP NHƯ MƠ, CÓ GÁC LỬNG, WC RIÊNG, GIỜ GIẤC TỰ DO">PHÒNG TRỌ MỚI XÂY XONG, ĐẸP NHƯ MƠ, CÓ GÁC LỬNG, WC RIÊNG, GIỜ GIẤC TỰ DO</a>
+                            </h3>
+                            <div class="room-detail">
+                                <div class="localtion">
+                                    Khu vực: <b>T&#226;n Ph&#250;</b> <span class="mgl-10">Diện tích: <b>30m<sup>2</sup></b></span>
+                                    <div class="room-detail-item">
+                                        <span class="time">07/04/2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price"><span>Giá: 2,300,000 /th&#225;ng</span></div>
+                            <div class="news-desc"> - Cho thuê phòng trọ mới xây 100% rất đẹp có gác lửng nằm giữa các tuyến đường lớn như: Hòa Bình Phan Anh Tô Hiệu Thoại Ngọc Hầu Lũy Bán Bích .... nên rất thuận tiện đi làm hay học hành qua các quận khác như: Tân Phú Q11</div>
+                        </div>
+                    </div>
+                    <div class="news-item item-vip0">
+                        <div class="news-thumb">
+                            <a href="phong-tro/151347/phong-tro-moi-xay-rat-dep-co-gac-bep-gio-tu-do-duong-tay-thanh-ngay-le-trong-tan-vo.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/20181025111327-IMG_1090.JPG" alt="">
+                            </a>
+                            <div class="icons">VIP</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/151347/phong-tro-moi-xay-rat-dep-co-gac-bep-gio-tu-do-duong-tay-thanh-ngay-le-trong-tan-vo.html" title="Phòng trọ MỚI XÂY RẤT ĐẸP, CÓ GÁC, BẾP, GIỜ TỰ DO, đường Tây Thạnh ngay Lê Trọng Tấn vô">Phòng trọ MỚI XÂY RẤT ĐẸP, CÓ GÁC, BẾP, GIỜ TỰ DO, đường Tây Thạnh ngay Lê Trọng Tấn vô</a>
+                            </h3>
+                            <div class="room-detail">
+                                <div class="localtion">
+                                    Khu vực: <b>T&#226;n Ph&#250;</b> <span class="mgl-10">Diện tích: <b>25m<sup>2</sup></b></span>
+                                    <div class="room-detail-item">
+                                        <span class="time">07/04/2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price"><span>Giá: 2,200,000 /th&#225;ng</span></div>
+                            <div class="news-desc"> - Cho thuê phòng trọ mới xây rất đẹp y hình đăng có gác lửng kệ bếp .... - Vị trí: nằm gần đường LÊ TRỌNG TẤN cách trường ĐH CÔNG NGHIỆP THỰC PHẨM chỉ 3 phút - Cách AEON MALL chỉ 5p đi KCN Tân Bình chỉ 5p........rất thuận</div>
+                        </div>
+                    </div>
+                    <div class="news-item item-vip0">
+                        <div class="news-thumb">
+                            <a href="phong-tro/151272/cho-thue-phong-tro-duong-cong-hoa-moi-xay-dung-moi-100.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/20180917090144-23.jpg" alt="">
+                            </a>
+                            <div class="icons">VIP</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/151272/cho-thue-phong-tro-duong-cong-hoa-moi-xay-dung-moi-100.html" title="Cho thuê phòng trọ đường Cộng Hòa  mới xây dựng mới 100">Cho thuê phòng trọ đường Cộng Hòa  mới xây dựng mới 100</a>
+                            </h3>
+                            <div class="room-detail">
+                                <div class="localtion">
+                                    Khu vực: <b>T&#226;n B&#236;nh</b> <span class="mgl-10">Diện tích: <b>15m<sup>2</sup></b></span>
+                                    <div class="room-detail-item">
+                                        <span class="time">07/04/2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price"><span>Giá: 2,200,000 /th&#225;ng</span></div>
+                            <div class="news-desc"> Phòng trọ mới xây dựng sạch sẽ thoáng mát balcon phòng có toilet riêng biệt bồn rửa chén khu an ninh. Vị trí ngay ngã tư Cộng Hòa và Hoàng Hoa Thám đi sân bay 10 phút ra các quận trung tâm quận 1 3 10 Phú Nhuận.... rất thuận</div>
+                        </div>
+                    </div>
+                    <div class="news-item item-vip0">
+                        <div class="news-thumb">
+                            <a href="phong-tro/150799/phong-tro-gia-re-truong-chinh-huynh-van-nghe.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/20180427093102-FB_IMG_1499098068179.jpg" alt="">
+                            </a>
+                            <div class="icons">VIP</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/150799/phong-tro-gia-re-truong-chinh-huynh-van-nghe.html" title="Phòng trọ giá rẻ Trường Chinh  Huỳnh Văn Nghệ">Phòng trọ giá rẻ Trường Chinh  Huỳnh Văn Nghệ</a>
+                            </h3>
+                            <div class="room-detail">
+                                <div class="localtion">
+                                    Khu vực: <b>T&#226;n B&#236;nh</b> <span class="mgl-10">Diện tích: <b>20m<sup>2</sup></b></span>
+                                    <div class="room-detail-item">
+                                        <span class="time">07/04/2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price"><span>Giá: 1,900,000 /th&#225;ng</span></div>
+                            <div class="news-desc"> Phòng trọ khu riêng biệt sinh hoạt khép kín giờ tự do phòng có cửa sổ gác toilet kệ bếp nấu ăn. Khu văn minh lich sử gần chợ Phạm Văn Bạch. Giao thông thuận tiện giao nhau với các đường Phạm văn Bạch - Trường Chinh - Phan Huy</div>
+                        </div>
+                    </div>
+                    <div class="news-item item-vip0">
+                        <div class="news-thumb">
+                            <a href="phong-tro/153102/cho-thue-phong-tro-moi-xay-so-104-25-20-tran-ba-giao-p-5-go-vap-hcm-l-h-thuy-0393762715.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/20190407120317-IMG_20190325_112820.jpg" alt="">
+                            </a>
+                            <div class="icons">VIP</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/153102/cho-thue-phong-tro-moi-xay-so-104-25-20-tran-ba-giao-p-5-go-vap-hcm-l-h-thuy-0393762715.html" title="Cho thuê phòng trọ mới xâysố 104/25/20 Trần Bá Giao , P.5,Gò Vấp,HCM, L/H Thùy 0393762715">Cho thuê phòng trọ mới xâysố 104/25/20 Trần Bá Giao , P.5,Gò Vấp,HCM, L/H Thùy 0393762715</a>
+                            </h3>
+                            <div class="room-detail">
+                                <div class="localtion">
+                                    Khu vực: <b>G&#242; Vấp</b> <span class="mgl-10">Diện tích: <b>18m<sup>2</sup></b></span>
+                                    <div class="room-detail-item">
+                                        <span class="time">07/04/2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price"><span>Giá: 2,500,000 /th&#225;ng</span></div>
+                            <div class="news-desc"> Cho thuê phòng trọ mới xây: số nhà 104/25/20 Trần Bá Giao Phường 5 Quận Gò Vấp TP. HCM có bảo vệ chỗ để xe WC bếp riêng từng phòng nước nóng năng lượng mặt trời wifi tivi cáp thang máy - miễn phí khu vực an ninh lối đi</div>
+                        </div>
+                    </div>
+                    <div class="news-item item-vip0">
+                        <div class="news-thumb">
+                            <a href="phong-tro/148824/cho-thue-phong-tro-sach-se-tolet-rieng-bao-dien-nuoc.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/20171020084005-1472146658058_219899.jpg" alt="">
+                            </a>
+                            <div class="icons">VIP</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/148824/cho-thue-phong-tro-sach-se-tolet-rieng-bao-dien-nuoc.html" title="cho thuê phòng trọ sạch sẽ,tolet riêng,bao điện nước">cho thuê phòng trọ sạch sẽ,tolet riêng,bao điện nước</a>
+                            </h3>
+                            <div class="room-detail">
+                                <div class="localtion">
+                                    Khu vực: <b>B&#236;nh Thạnh</b> <span class="mgl-10">Diện tích: <b>18m<sup>2</sup></b></span>
+                                    <div class="room-detail-item">
+                                        <span class="time">07/04/2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price"><span>Giá: 2,700,000 /th&#225;ng</span></div>
+                            <div class="news-desc"> Cho thuê phòng trọ mới xây 15 mét vuông 2 người ở toilet riêng BAO ĐIỆN NƯỚC Có sẵn quạt miễn phí wifi truyền hình cáp máy nước nóng có sân thượng rộng thoáng mát có nhà để xe có chỗ nấu ăn gần đại học Văn Lang gần chợ</div>
+                        </div>
+                    </div>
+                    <div class="news-item item-vip0">
+                        <div class="news-thumb">
+                            <a href="phong-tro/151993/cho-thue-phong-tro-go-vap-duong-le-duc-tho.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/20190329113218-2f99622546e64dd9989e1b434aa938cb.jpg" alt="">
+                            </a>
+                            <div class="icons">VIP</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/151993/cho-thue-phong-tro-go-vap-duong-le-duc-tho.html" title="Cho Thuê Phòng trọ Gò Vấp Đường Lê Đức Thọ">Cho Thuê Phòng trọ Gò Vấp Đường Lê Đức Thọ</a>
+                            </h3>
+                            <div class="room-detail">
+                                <div class="localtion">
+                                    Khu vực: <b>G&#242; Vấp</b> <span class="mgl-10">Diện tích: <b>18m<sup>2</sup></b></span>
+                                    <div class="room-detail-item">
+                                        <span class="time">07/04/2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price"><span>Giá: 3,200,000 /th&#225;ng</span></div>
+                            <div class="news-desc"> ĐỊA CHỈ: 1264/57/4 Lê Đức Thọ phường 13 quận gò vấp tp HCM. 1 Vị trí:Trung tâm quận Gò Vấp nằm ngay ngã tư Lê Đức Thọ Phạm Văn Chiêu . Vị trí vô cùng đắc địa của trung tâm Quận gò vấp . Gần công viên làng hoa cách</div>
+                        </div>
+                    </div>
+                    <div class="news-item item-vip0">
+                        <div class="news-thumb">
+                            <a href="phong-tro/116937/cho-thue-phong-tro-co-tolet-rieng-moi-gio-giac-tu-do-p11-q-tb.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/default.jpg" alt="">
+                            </a>
+                            <div class="icons">VIP</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/116937/cho-thue-phong-tro-co-tolet-rieng-moi-gio-giac-tu-do-p11-q-tb.html" title="cho thuê phòng trọ có tolét riêng, mới, giờ giấc tự do, P11, Q.TB....">cho thuê phòng trọ có tolét riêng, mới, giờ giấc tự do, P11, Q.TB....</a>
+                            </h3>
+                            <div class="room-detail">
+                                <div class="localtion">
+                                    Khu vực: <b>T&#226;n B&#236;nh</b> <span class="mgl-10">Diện tích: <b>24m<sup>2</sup></b></span>
+                                    <div class="room-detail-item">
+                                        <span class="time">07/04/2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price"><span>Giá: 2,800,000 /th&#225;ng</span></div>
+                            <div class="news-desc"> Cho thuê phòng trọ cao cấp P.11 Q.Tân Bình Giá 2tr2 đến 3tr có tolet trong phòng Internet... thoáng mát có cửa sổ và cửa chính ra ban công cho nấu ăn có chỗ để xe miễn phí. giờ giấc tự do không chung chủ khu vực an ninh yên</div>
+                        </div>
+                    </div>
+                    <div class="news-item item-vip0">
+                        <div class="news-thumb">
+                            <a href="phong-tro/119614/cho-thue-phong-tro-co-tolet-rieng-moi-gio-giac-tu-do-p12-q-10.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/default.jpg" alt="">
+                            </a>
+                            <div class="icons">VIP</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/119614/cho-thue-phong-tro-co-tolet-rieng-moi-gio-giac-tu-do-p12-q-10.html" title="cho thuê phòng trọ có tolét riêng, mới, giờ giấc tự do, P12, Q.10">cho thuê phòng trọ có tolét riêng, mới, giờ giấc tự do, P12, Q.10</a>
+                            </h3>
+                            <div class="room-detail">
+                                <div class="localtion">
+                                    Khu vực: <b>Quận 10</b> <span class="mgl-10">Diện tích: <b>16m<sup>2</sup></b></span>
+                                    <div class="room-detail-item">
+                                        <span class="time">07/04/2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price"><span>Giá: 3,000,000 /th&#225;ng</span></div>
+                            <div class="news-desc"> Cho thuê phòng trọ cao cấp P.12 Q.10 Giá từ 3tr thoáng mát có cửa sổ... giờ giấc tự do không chung chủ Internet có chỗ để xe ... khu vực an ninh yên tĩnh thích hợp người làm văn phòng gia đình nhỏ cho các bạn ở học Gần</div>
+                        </div>
+                    </div>
+                    <div class="news-item item-vip0">
+                        <div class="news-thumb">
+                            <a href="phong-tro/116939/cho-thue-phong-tro-co-tolet-rieng-moi-gio-giac-tu-do-p1-q-3.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/default.jpg" alt="">
+                            </a>
+                            <div class="icons">VIP</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/116939/cho-thue-phong-tro-co-tolet-rieng-moi-gio-giac-tu-do-p1-q-3.html" title="cho thuê phòng trọ có tolét riêng, mới, giờ giấc tự do, P1, Q.3....">cho thuê phòng trọ có tolét riêng, mới, giờ giấc tự do, P1, Q.3....</a>
+                            </h3>
+                            <div class="room-detail">
+                                <div class="localtion">
+                                    Khu vực: <b>Quận 3</b> <span class="mgl-10">Diện tích: <b>24m<sup>2</sup></b></span>
+                                    <div class="room-detail-item">
+                                        <span class="time">07/04/2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price"><span>Giá: 4,000,000 /th&#225;ng</span></div>
+                            <div class="news-desc"> Cho thuê phòng trọ cao cấp P.1 Q.3 Giá 4tr có tolet trong phòng máy lạnh Internet... thoáng mát có cửa sổ và cửa chính ra ban công cho nấu ăn có chỗ để xe miễn phí. giờ giấc tự do không chung chủ khu vực an ninh yên tĩnh</div>
+                        </div>
+                    </div>
+                    <div class="news-item item-vip0">
+                        <div class="news-thumb">
+                            <a href="phong-tro/149926/cho-thue-phong-tro-tan-binh.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/default.jpg" alt="">
+                            </a>
+                            <div class="icons">VIP</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/149926/cho-thue-phong-tro-tan-binh.html" title="cho Thuê phong trọ Tân Bình">cho Thuê phong trọ Tân Bình</a>
+                            </h3>
+                            <div class="room-detail">
+                                <div class="localtion">
+                                    Khu vực: <b>T&#226;n B&#236;nh</b> <span class="mgl-10">Diện tích: <b>20m<sup>2</sup></b></span>
+                                    <div class="room-detail-item">
+                                        <span class="time">07/04/2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price"><span>Giá: 2,400,000 /th&#225;ng</span></div>
+                            <div class="news-desc"> Có phòng cho thuê hiện còn vài phòng khu dân trí cao sạch sẽ lịch sự văn minh Giá rẻ ưu tiên cho người đến sớm. Phòng mới đẹp có bếp nấp ăn bồn rửa chén nhà tắm vệ sinh riêng trong phòng Có nước nóng dùng NLMT Sân thượng</div>
+                        </div>
+                    </div>
+                    <div class="news-item item-vip0">
+                        <div class="news-thumb">
+                            <a href="phong-tro/151770/cho-thue-phong-tro-moi-xay-duong-vuon-lai-q-tan-phu.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/default.jpg" alt="">
+                            </a>
+                            <div class="icons">VIP</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/151770/cho-thue-phong-tro-moi-xay-duong-vuon-lai-q-tan-phu.html" title="Cho Thuê phòng trọ mới xây đường Vườn Lài. Q TÂN Phú.">Cho Thuê phòng trọ mới xây đường Vườn Lài. Q TÂN Phú.</a>
+                            </h3>
+                            <div class="room-detail">
+                                <div class="localtion">
+                                    Khu vực: <b>T&#226;n Ph&#250;</b> <span class="mgl-10">Diện tích: <b>18m<sup>2</sup></b></span>
+                                    <div class="room-detail-item">
+                                        <span class="time">07/04/2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price"><span>Giá: 2,400,000 /th&#225;ng</span></div>
+                            <div class="news-desc"> Chính chủ cho thuê phòng trọ mới xây đường Vườn Lài. Quận Tân Phú. Phòng đẹp có gác. Các phòng đều có cửa sổ lấy ánh sáng và gió. Có bếp. Phòng tắm vòi sen trong phòng Khu vực gần UB quận Tân phú. Gần trường học. Siêu thị mini</div>
+                        </div>
+                    </div>
+                    <div class="news-item item-vip0">
+                        <div class="news-thumb">
+                            <a href="phong-tro/151969/cho-nam-o-ghep-gia-binh-dan-gan-cau-lac-bo-lan-anh-quan-3-co-wifii.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/default.jpg" alt="">
+                            </a>
+                            <div class="icons">VIP</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/151969/cho-nam-o-ghep-gia-binh-dan-gan-cau-lac-bo-lan-anh-quan-3-co-wifii.html" title="Cho nam ở ghép giá binh dân, Gần Câu lac bộ Lan Anh Quận 3.có wifii">Cho nam ở ghép giá binh dân, Gần Câu lac bộ Lan Anh Quận 3.có wifii</a>
+                            </h3>
+                            <div class="room-detail">
+                                <div class="localtion">
+                                    Khu vực: <b>Quận 3</b> <span class="mgl-10">Diện tích: <b>30m<sup>2</sup></b></span>
+                                    <div class="room-detail-item">
+                                        <span class="time">07/04/2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price"><span>Giá: 830,000 /th&#225;ng</span></div>
+                            <div class="news-desc"> Hiện giờ mình có phòng cần ở ghép nam giá 830k / 1th điện nước bao....có wifii ..giờ giất tự do phòng rộng rãi sạch sẽ thoáng mát sáng sủa có lối đi riêng có chổ để xe an toàn khu vực dân cư an ninh gần câu lạc bộ</div>
+                        </div>
+                    </div>
+                    <div class="news-item item-vip0">
+                        <div class="news-thumb">
+                            <a href="phong-tro/151856/ca-n-ti-m-nguo-i-o-ghe-p-pho-ng-ro-ng-mo-i-xay-co-ma-y-la-nh-450k-th-ta-i-bi-nh-thanh.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/20190220070725-v.jpg" alt="">
+                            </a>
+                            <div class="icons">VIP</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/151856/ca-n-ti-m-nguo-i-o-ghe-p-pho-ng-ro-ng-mo-i-xay-co-ma-y-la-nh-450k-th-ta-i-bi-nh-thanh.html" title="Cần tìm người ở ghép phòng rộng mới xây có máy lạnh 450k/th tại bình thanh">Cần tìm người ở ghép phòng rộng mới xây có máy lạnh 450k/th tại bình thanh</a>
+                            </h3>
+                            <div class="room-detail">
+                                <div class="localtion">
+                                    Khu vực: <b>B&#236;nh Thạnh</b> <span class="mgl-10">Diện tích: <b>43m<sup>2</sup></b></span>
+                                    <div class="room-detail-item">
+                                        <span class="time">07/04/2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price"><span>Giá: 450,000 /th&#225;ng</span></div>
+                            <div class="news-desc"> Phòng Cho thuê KTX ở ghép có máy lạnh quạt máy rông giá rẻ 450k/người Phòng sạch đẹp yên tĩnh thoáng mát nằm ở khu an ninh tốt... Giường tầng cao cấp chắc chắn Đầy dủ tiên nghi giường Có tủ đồ cá nhân riêng biệt. có cửa sổ ban</div>
+                        </div>
+                    </div>
+                    <div class="news-item item-vip0">
+                        <div class="news-thumb">
+                            <a href="phong-tro/151857/cho-thue-pho-ng-tro-cao-ca-p-gia-re-ta-i-bi-nh-thanh-6-5tr-full-no-i-tha-t.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/20190220071151-894c06d45742b41ced53.jpg" alt="">
+                            </a>
+                            <div class="icons">VIP</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/151857/cho-thue-pho-ng-tro-cao-ca-p-gia-re-ta-i-bi-nh-thanh-6-5tr-full-no-i-tha-t.html" title="cho thuê phòng trọ cao cấp giá rẽ tại bình thanh 6,5tr full nội thất">cho thuê phòng trọ cao cấp giá rẽ tại bình thanh 6,5tr full nội thất</a>
+                            </h3>
+                            <div class="room-detail">
+                                <div class="localtion">
+                                    Khu vực: <b>B&#236;nh Thạnh</b> <span class="mgl-10">Diện tích: <b>0m<sup>2</sup></b></span>
+                                    <div class="room-detail-item">
+                                        <span class="time">07/04/2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price"><span>Giá: 6,500,000 /th&#225;ng</span></div>
+                            <div class="news-desc"> nhà chúng tôi hiên tại đang trống một phòng rộng rã sạch đẹp như căn hộ chung cư cao cấp phòng có đầy đủ tiên nghi máy lạnh giường tủ bếp có tolet trong phòng kệ bếp sang trong như ks tất cả trong phòng điều lót toàn gạch men</div>
+                        </div>
+                    </div>
+                    <div class="news-item item-vip0">
+                        <div class="news-thumb">
+                            <a href="phong-tro/149245/phong-25m2-moi-sach-se-thoang-tai-4-4-tran-khac-chan-p-tan-dinh-q-1-gia-4-7tr.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/20171127055805-20170501_103729.jpg" alt="">
+                            </a>
+                            <div class="icons">VIP</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/149245/phong-25m2-moi-sach-se-thoang-tai-4-4-tran-khac-chan-p-tan-dinh-q-1-gia-4-7tr.html" title="Ph_25C3_25B2ng 25m2. m_25E1_25BB_259Bi s_25E1_25BA_25A1ch s_25E1_25BA_25BD tho_25C3_25A1ng t_25E1_25_0B45826273">Phòng 25m2. mới sạch sẽ thoáng tại 4/4 Trần Khắc Chân P.Tân Định Q.1. Giá 4.7Tr</a>
+                            </h3>
+                            <div class="room-detail">
+                                <div class="localtion">
+                                    Khu vực: <b>Quận 5</b> <span class="mgl-10">Diện tích: <b>25m<sup>2</sup></b></span>
+                                    <div class="room-detail-item">
+                                        <span class="time">07/04/2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price"><span>Giá: 4,700,000 /th&#225;ng</span></div>
+                            <div class="news-desc"> Hẻm 4/4 Trần Khắc Chân P.Tân Định Q.1 gần ngã năm Trần Quang Khải. Nhà thuộc khu an ninh trật tự yên tĩnh thuận tiện không kẹt xe ngay trung tâm Q.1 Tôi còn 1 phòng diện tích 25m2 trong căn nhà 3 tấm có ban công có wc riêng</div>
+                        </div>
+                    </div>
+                    <div class="news-item item-vip0">
+                        <div class="news-thumb">
+                            <a href="phong-tro/151438/cho-thue-phong-quan-7-tphcm-co-may-lanh-free-wifi.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/20181106050500-5505E77F-958A-4614-8964-346D16E1E5A1.jpeg" alt="">
+                            </a>
+                            <div class="icons">VIP</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/151438/cho-thue-phong-quan-7-tphcm-co-may-lanh-free-wifi.html" title="Cho thuê phòng quận 7 tphcm,có máy lạnh,free wifi">Cho thuê phòng quận 7 tphcm,có máy lạnh,free wifi</a>
+                            </h3>
+                            <div class="room-detail">
+                                <div class="localtion">
+                                    Khu vực: <b>Quận 7</b> <span class="mgl-10">Diện tích: <b>20m<sup>2</sup></b></span>
+                                    <div class="room-detail-item">
+                                        <span class="time">06/04/2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price"><span>Giá: 2,800,000 /th&#225;ng</span></div>
+                            <div class="news-desc"> Phòng cho thuê!Q7 - Vị trí: Nằm ngay cạnh cầu Tân Thuận 2 gần đường Trần Xuân Soạn Nguyễn Thị Thập Nguyễn Tất Thành Nguyễn Văn Linh. Gần Lotte Mart Quận 7 Phú Mỹ Hưng chỉ cần 5 đến 10 phút tới trường đại học RMIT ĐH Tôn Đức Thắng</div>
+                        </div>
+                    </div>
+                    <div class="news-item item-vip0">
+                        <div class="news-thumb">
+                            <a href="phong-tro/132542/nha-cho-thue-phuong-13-quan-binh-thanh.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/default.jpg" alt="">
+                            </a>
+                            <div class="icons">VIP</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/132542/nha-cho-thue-phuong-13-quan-binh-thanh.html" title="NHÀ CHO THUÊ PHƯỜNG 13 QUẬN BÌNH THẠNH">NHÀ CHO THUÊ PHƯỜNG 13 QUẬN BÌNH THẠNH</a>
+                            </h3>
+                            <div class="room-detail">
+                                <div class="localtion">
+                                    Khu vực: <b>B&#236;nh Thạnh</b> <span class="mgl-10">Diện tích: <b>25m<sup>2</sup></b></span>
+                                    <div class="room-detail-item">
+                                        <span class="time">06/04/2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price"><span>Giá: 2,500,000 /th&#225;ng</span></div>
+                            <div class="news-desc"> Cho sinh viên nhân viên NỮ thuê khu vực ĐƯỜNG TRỤC quận Bình Thạnh!!!!! - Khu vực đường trục THOÁNG MÁT AN NINH. gần chợ siêu thị bệnh viện và nhiều trường ĐH lớn: Công Nghiệp HUTECH Ngoại Thương Văn Lang ... - Cách trường ĐH VĂN LANG 100m -</div>
+                        </div>
+                    </div>
+                    <div class="news-item item-vip0">
+                        <div class="news-thumb">
+                            <a href="phong-tro/150956/phong-q-tan-binh-22m2-3-5tr-th-cho-thue-gio-tu-do-co-may-lanh-cua-so-ban-cong-97-phu-hoa.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/20190211084217-IMG_2399.JPG" alt="">
+                            </a>
+                            <div class="icons">VIP</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/150956/phong-q-tan-binh-22m2-3-5tr-th-cho-thue-gio-tu-do-co-may-lanh-cua-so-ban-cong-97-phu-hoa.html" title="PHÒNG Q.TÂN BÌNH 22m2 3,5tr/th CHO THUÊ  GIỜ TỰ DO, CÓ MÁY LẠNH CỬA SỔ  BAN CÔNG, 97 PHÚ HÒA">PHÒNG Q.TÂN BÌNH 22m2 3,5tr/th CHO THUÊ  GIỜ TỰ DO, CÓ MÁY LẠNH CỬA SỔ  BAN CÔNG, 97 PHÚ HÒA</a>
+                            </h3>
+                            <div class="room-detail">
+                                <div class="localtion">
+                                    Khu vực: <b>T&#226;n B&#236;nh</b> <span class="mgl-10">Diện tích: <b>22m<sup>2</sup></b></span>
+                                    <div class="room-detail-item">
+                                        <span class="time">06/04/2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price"><span>Giá: 3,500,000 /th&#225;ng</span></div>
+                            <div class="news-desc"> Phòng có máy lạnh giờ tự do gần CMT8 - Lý Thường Kiệt ngay chợ Tân Bình không giới hạn số người ở ở được 1-3 người cần cho thuê phòng mới đẹp diện tích 22m2( kèm theo hình chụp dưới đây 3 5tr/tháng) và mình có thêm 2phòng có</div>
+                        </div>
+                    </div>
+                    <div class="news-item item-vip0">
+                        <div class="news-thumb">
+                            <a href="phong-tro/151045/phong-30m2-hem-339-17to-hien-thanh-lau-2-co-ban-cong-cua-so-may-lanh-gio-tu-do-4-3tr-th.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/20180917100652-1.jpg" alt="">
+                            </a>
+                            <div class="icons">VIP</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/151045/phong-30m2-hem-339-17to-hien-thanh-lau-2-co-ban-cong-cua-so-may-lanh-gio-tu-do-4-3tr-th.html" title="Phòng 30m2, hẻm 339/17Tô Hiến Thành,lầu 2 ,có ban công, cửa sổ,máy lạnh,giờ tự do, 4,3tr/th,">Phòng 30m2, hẻm 339/17Tô Hiến Thành,lầu 2 ,có ban công, cửa sổ,máy lạnh,giờ tự do, 4,3tr/th,</a>
+                            </h3>
+                            <div class="room-detail">
+                                <div class="localtion">
+                                    Khu vực: <b>Quận 10</b> <span class="mgl-10">Diện tích: <b>30m<sup>2</sup></b></span>
+                                    <div class="room-detail-item">
+                                        <span class="time">06/04/2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price"><span>Giá: 4,300,000 /th&#225;ng</span></div>
+                            <div class="news-desc"> Phòng cho thuê máy lạnh giờ tự do ngay ngã ba Tô Hiến Thành và Đồng Nai gần trường Đại Học HUFLIT Y Phạm Ngọc Thạch 5 phút đến Bách Khoa...... Hiện tại mình có 02 phòng rất đẹp phòng lầu 2 và lầu 4 tất cả phòng đều có</div>
+                        </div>
+                    </div>
+                    <div class="news-item item-vip0">
+                        <div class="news-thumb">
+                            <a href="phong-tro/151602/cho-thue-mat-bang-kd-tu-do-cho-tan-binh-97-phu-hoa-5x10m-15tr-th-loi-di-rieng.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/20190115094905-IMG_2137.JPG" alt="">
+                            </a>
+                            <div class="icons">VIP</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/151602/cho-thue-mat-bang-kd-tu-do-cho-tan-binh-97-phu-hoa-5x10m-15tr-th-loi-di-rieng.html" title="Cho thuê mặt bằng KD tự do chợ Tân Bình, 97 Phú Hòa  5x10m 15tr/th, lối đi riêng">Cho thuê mặt bằng KD tự do chợ Tân Bình, 97 Phú Hòa  5x10m 15tr/th, lối đi riêng</a>
+                            </h3>
+                            <div class="room-detail">
+                                <div class="localtion">
+                                    Khu vực: <b>Quận 10</b> <span class="mgl-10">Diện tích: <b>50m<sup>2</sup></b></span>
+                                    <div class="room-detail-item">
+                                        <span class="time">06/04/2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price"><span>Giá: 15,000,000 /th&#225;ng</span></div>
+                            <div class="news-desc"> Mặt bằng không chung chủ có lối đi riêng bề ngang rộng 5m chiều dài 10m có toilet riêng giá 15tr/tháng có cửa cuốn khu chợ Tân Bình sầm uất kinh doanh tự do đường thoáng xe tải vào được bên hông chợ TÂN BÌNH thích hợp sử dụng làm</div>
+                        </div>
+                    </div>
+                    <div class="news-item item-vip0">
+                        <div class="news-thumb">
+                            <a href="phong-tro/151311/cho-thue-o-ghep-nu-phong-rieng.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/20180928114336-15382031412951589848834.jpg" alt="">
+                            </a>
+                            <div class="icons">VIP</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/151311/cho-thue-o-ghep-nu-phong-rieng.html" title="Cho thuê ở ghép nữ phòng riêng">Cho thuê ở ghép nữ phòng riêng</a>
+                            </h3>
+                            <div class="room-detail">
+                                <div class="localtion">
+                                    Khu vực: <b>H&#243;c M&#244;n</b> <span class="mgl-10">Diện tích: <b>25m<sup>2</sup></b></span>
+                                    <div class="room-detail-item">
+                                        <span class="time">06/04/2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price"><span>Giá: 700,000 /th&#225;ng</span></div>
+                            <div class="news-desc"> KÍ TÚC XÁ CAO CẤP TRỌN GÓI CHỈ 700K/tháng Vị trí thuận lợi: 3C Tô Ký ấp Mới 1 xã Tân Xuân huyện Hóc Môn. - trục đường lớn thuận lợi đi lại an ninh đảm bảo - gần ĐH Lao động xã hội Trung cấp kinh tế kĩ thuật</div>
+                        </div>
+                    </div>
+                    <div class="news-item item-vip0">
+                        <div class="news-thumb">
+                            <a href="phong-tro/151308/cho-thue-phong-tro-dep-nhu-khach-san.html">
+                                <img src="../https@static.thuephongtro.com/Uploads/Images/Thumb/20180928031951-20180927_105740.jpg" alt="">
+                            </a>
+                            <div class="icons">VIP</div>
+                            
+                        </div>
+                        <div class="news-info">
+                            <h3 class="news-title">
+                                <a href="phong-tro/151308/cho-thue-phong-tro-dep-nhu-khach-san.html" title="Cho thuê phòng trọ đẹp như khách sạn ">Cho thuê phòng trọ đẹp như khách sạn </a>
+                            </h3>
+                            <div class="room-detail">
+                                <div class="localtion">
+                                    Khu vực: <b>H&#243;c M&#244;n</b> <span class="mgl-10">Diện tích: <b>30m<sup>2</sup></b></span>
+                                    <div class="room-detail-item">
+                                        <span class="time">06/04/2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price"><span>Giá: 2,200,000 /th&#225;ng</span></div>
+                            <div class="news-desc"> Cho thuê phòng 30m2 trang bị máy lạnh từng phòng thang máy nước nóng . Phòng sạch thoáng mát an ninh Tiện ich xung quanh đầy đủ rất gần siêu thị trường học . Thích hợp sinh viên công nhân hoặc vợ chồng trẻ . ( Hoặc có phòng ở</div>
+                        </div>
+                    </div>
+            </div>
+            <div class="paging-container">
+                <ul class="pagination">
+                    <li class='active'><a href='javascript:void(0)'>1</a></li><li><a href="@p=2">2</a></li><li><a href="@p=3">3</a></li><li><a href="@p=4">4</a></li><li><a href="@p=5">5</a></li><li><a href="@p=2">»</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+            </div>
+            <div class="col-xs-12 col-md-4 sidebar-right">
+                
+                
+                <div class="sidebar-box">
+    <h3 class="sidebarbox-title">
+        <span><i class="fa fa-bars"></i>Tin mới đăng</span>
+    </h3>
+    <div class="sidebarbox-body">
+        <ul class="box-lastnews">
+                <li>
+                    <a href="phong-tro/151723/phong-tro-moi-xay-dep-lung-linh-co-gac-ke-bep-ngay-le-trong-tan.html">
+                        <p class="n_title">PHÒNG TRỌ MỚI XÂY ĐẸP LUNG LINH, CÓ GÁC, KỆ BẾP, NGAY LÊ TRỌNG TẤN</p>
+                        <span class="price">2,400,000</span> - <span class="area">DT: <b>25 m<sup>2</sup></b></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="phong-tro/151038/phong-tro-moi-xay-dep-nhu-khach-san-day-du-noi-that-gio-giac-tu-do.html">
+                        <p class="n_title">PHÒNG TRỌ MỚI XÂY, ĐẸP NHƯ KHÁCH SẠN, ĐẦY ĐỦ NỘI THẤT, GIỜ GIẤC TỰ DO</p>
+                        <span class="price">2,700,000</span> - <span class="area">DT: <b>25 m<sup>2</sup></b></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="phong-tro/138534/phong-tro-moi-co-gac-lung-gio-giac-tu-do-tolet-rieng-ngay-trung-tam.html">
+                        <p class="n_title">PHÒNG TRỌ MỚI, CÓ GÁC LỬNG, GIỜ GIẤC TỰ DO, TOLET RIÊNG, NGAY TRUNG TÂM</p>
+                        <span class="price">3,000,000</span> - <span class="area">DT: <b>25 m<sup>2</sup></b></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="phong-tro/150660/phong-tro-moi-xay-xong-dep-nhu-mo-co-gac-lung-wc-rieng-gio-giac-tu-do.html">
+                        <p class="n_title">PHÒNG TRỌ MỚI XÂY XONG, ĐẸP NHƯ MƠ, CÓ GÁC LỬNG, WC RIÊNG, GIỜ GIẤC TỰ DO</p>
+                        <span class="price">2,300,000</span> - <span class="area">DT: <b>30 m<sup>2</sup></b></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="phong-tro/151347/phong-tro-moi-xay-rat-dep-co-gac-bep-gio-tu-do-duong-tay-thanh-ngay-le-trong-tan-vo.html">
+                        <p class="n_title">Phòng trọ MỚI XÂY RẤT ĐẸP, CÓ GÁC, BẾP, GIỜ TỰ DO, đường Tây Thạnh ngay Lê Trọng Tấn vô</p>
+                        <span class="price">2,200,000</span> - <span class="area">DT: <b>25 m<sup>2</sup></b></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="phong-tro/151217/day-phong-tro-rieng-biet-co-gac-lung-ke-bep-kg-ton-phi-xe-gio-tu-do.html">
+                        <p class="n_title">Dãy PHÒNG TRỌ RIÊNG BIỆT, CÓ GÁC LỬNG, KỆ BẾP. KG TỐN PHÍ XE, GIỜ TỰ DO</p>
+                        <span class="price">2,700,000</span> - <span class="area">DT: <b>30 m<sup>2</sup></b></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="phong-tro/146602/phong-dep-cho-thue-mt-truong-chinh-du-tien-nghi-co-gac-lung-thang-may-gia-2-5-tr-3-tr.html">
+                        <p class="n_title">PHÒNG ĐẸP CHO THUÊ MT TRƯỜNG CHINH  ĐỦ TIỆN NGHI, CÓ GÁC LỬNG, THANG MÁY, GIÁ 2.5 TR  3 TR</p>
+                        <span class="price">2,500,000</span> - <span class="area">DT: <b>25 m<sup>2</sup></b></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="phong-tro/153090/cho-nu-thue-phong-32m2-sach-dep-an-ninh-tai-quan-binh-thanh.html">
+                        <p class="n_title">CHO NỮ THUÊ PHÒNG 32m2 SẠCH ĐẸP AN NINH TẠI QUẬN BÌNH THẠNH</p>
+                        <span class="price">5,000,000</span> - <span class="area">DT: <b>32 m<sup>2</sup></b></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="phong-tro/151272/cho-thue-phong-tro-duong-cong-hoa-moi-xay-dung-moi-100.html">
+                        <p class="n_title">Cho thuê phòng trọ đường Cộng Hòa  mới xây dựng mới 100</p>
+                        <span class="price">2,200,000</span> - <span class="area">DT: <b>15 m<sup>2</sup></b></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="phong-tro/150799/phong-tro-gia-re-truong-chinh-huynh-van-nghe.html">
+                        <p class="n_title">Phòng trọ giá rẻ Trường Chinh  Huỳnh Văn Nghệ</p>
+                        <span class="price">1,900,000</span> - <span class="area">DT: <b>20 m<sup>2</sup></b></span>
+                    </a>
+                </li>
+        </ul>
+    </div>
+</div>
+                <div class="sidebar-box">
+                    <h3 class="sidebarbox-title">
+                        <span><i class="fa fa-bars"></i>Cộng đồng</span>
+                    </h3>
+                    <div class="sidebarbox-body">
+                        <div class="fanpage-box">
+                            <iframe src="../https@www.facebook.com/plugins/page.php@href=https_253A_252F_252Fwww.facebook.com_252Ftimnhatro_252F&tabs=timeline&width=360&height=210&small_hea0BBB12F2A5" width="100%" height="200" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+            <div class="searchbar_top visible-xs">
+                <div class="searchbar_top_body">
+                    <form action="tim-kiem.html" method="GET" name="frmSearch" id="frmSearch_mb">
+                        <div class="box-search">
+                            <h3 class="title">Tìm kiếm nhanh</h3>
+                            <div class="bs-content">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-2">
+                                        <select id="ddlCategory" name="category" class="form-control">
+                                            <option value="">Chọn danh mục</option>
+                                            
+    <option value="0400" >Cho thuê phòng trọ</option>
+    <option value="0600" >Nhà cho thuê</option>
+    <option value="0500" >Tìm người ở ghép</option>
+
+                                        </select>
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-6 col-md-2">
+                                        <select id="ddlProvince" name="province" class="form-control">
+                                            <option value="">Tỉnh/Thành phố</option>
+                                            
+    <option value="1" >TP Hồ Chí Minh</option>
+    <option value="2" >Hà Nội</option>
+    <option value="43" >Bình Dương</option>
+    <option value="47" >Đồng Nai</option>
+    <option value="51" >Vũng Tàu</option>
+    <option value="54" >Cần Thơ</option>
+    <option value="3" >Hải Phòng</option>
+    <option value="4" >Đà Nẵng</option>
+    <option value="32" >Thừa Thiên Huế</option>
+    <option value="5" >Hà Giang</option>
+    <option value="6" >Cao Bằng</option>
+    <option value="7" >Lai Châu</option>
+    <option value="8" >Lào Cai</option>
+    <option value="9" >Tuyên Quang</option>
+    <option value="10" >Lạng Sơn</option>
+    <option value="11" >Bắc Kạn</option>
+    <option value="12" >Thái Nguyên</option>
+    <option value="13" >Yên Bái</option>
+    <option value="14" >Sơn La</option>
+    <option value="15" >Phú Thọ</option>
+    <option value="16" >Vĩnh Phúc</option>
+    <option value="17" >Quảng Ninh</option>
+    <option value="18" >Bắc Giang</option>
+    <option value="19" >Bắc Ninh</option>
+    <option value="20" >Hải Dương</option>
+    <option value="21" >Hưng Yên</option>
+    <option value="22" >Hoà Bình</option>
+    <option value="23" >Hà Nam</option>
+    <option value="24" >Nam Định</option>
+    <option value="25" >Thái Bình</option>
+    <option value="26" >Ninh Bình</option>
+    <option value="27" >Thanh Hoá</option>
+    <option value="28" >Nghệ An</option>
+    <option value="29" >Hà Tĩnh</option>
+    <option value="30" >Quảng Bình</option>
+    <option value="31" >Quảng Trị</option>
+    <option value="33" >Quảng Nam</option>
+    <option value="34" >Quảng Ngãi</option>
+    <option value="35" >Kontum</option>
+    <option value="36" >Bình Định</option>
+    <option value="37" >Gia Lai</option>
+    <option value="38" >Phú Yên</option>
+    <option value="39" >Đăk Lăk</option>
+    <option value="40" >Khánh Hoà</option>
+    <option value="41" >Lâm Đồng</option>
+    <option value="42" >Bình Phước</option>
+    <option value="55" >Bến Tre</option>
+    <option value="56" >Vĩnh Long</option>
+    <option value="57" >Trà Vinh</option>
+    <option value="58" >Sóc Trăng</option>
+    <option value="59" >Bạc Liêu</option>
+    <option value="60" >Cà Mau</option>
+    <option value="61" >Điện Biên</option>
+    <option value="62" >Dăk Nông</option>
+    <option value="63" >Hậu Giang</option>
+    <option value="48" >Long An</option>
+    <option value="49" >Đồng Tháp</option>
+    <option value="50" >An Giang</option>
+    <option value="44" >Ninh Thuận</option>
+    <option value="45" >Tây Ninh</option>
+    <option value="46" >Bình Thuận</option>
+    <option value="52" >Tiền Giang</option>
+    <option value="53" >Kiên Giang</option>
+>
+                                        </select>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-2">
+                                        <select id="ddlDistrict" name="district" class="form-control">
+                                            <option value="">Quận/Huyện</option>
+
+                                        </select>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-2">
+                                        <select id="ddlArea" name="area" class="form-control">
+                                            <option value="">Diện tích</option>
+                                            
+    <option value="0-20" >&lt;20 m2</option>
+    <option value="20-40" >20 - 40 m2</option>
+    <option value="40-80" >40 - 80 m2</option>
+    <option value="80-100" >80 - 100 m2</option>
+    <option value="100" >&gt;100 m2</option>
+
+                                        </select>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-2">
+                                        <select id="ddlPrice" name="price" class="form-control">
+                                            <option value="">Mức giá</option>
+                                            
+    <option value="0" >Thỏa thuận</option>
+    <option value="1-1000000" >&lt; 1 triệu</option>
+    <option value="1000000-2000000" >1 triệu - 2 triệu</option>
+    <option value="2000000-3000000" >2 triệu - 3 triệu</option>
+    <option value="3000000-5000000" >3 triệu - 5 triệu</option>
+    <option value="5000000" >&gt; 5 triệu</option>
+
+                                        </select>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-2">
+                                        <div class="bs-item" id="KeyDownEnterHome" style="background: none;">
+                                            <input class="form-control" name="id" type="text" placeholder="Tìm theo mã số tin">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bs-search">
+                                <button class="btn btn-warning btn-block">Tìm ngay</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="whyus">
+                <div class="container">
+                    <div class="whyus_wrapper">
+                        <div class="whyus_block">
+                            <div class="whyus_header">
+                                <h3>Tại sao lại chọn ThuePhongTro.com?</h3>
+                            </div>
+                            <div class="whyus_body">
+                                <p>Chúng tôi biết bạn có rất nhiều lựa chọn, nhưng thuephongtro.com tự hào là trang web đứng top google về các từ khóa: <strong>cho thuê phòng trọ</strong>, <strong>nhà trọ</strong>, <strong>thuê nhà nguyên căn</strong>, <strong>cho thuê căn hộ</strong>, <strong>tìm người ở ghép</strong>...Vì vậy tin của bạn đăng trên website sẽ tiếp cận được với nhiều khách hàng hơn, do đó giao dịch nhanh hơn, tiết kiệm chi phí hơn</p>
+                                <div class="whyus_countup clearfix">
+                                    <div class="whyus_countup_item">
+                                        <div class="whyus_countup_item_number">24.000+</div>
+                                        <div class="whyus_countup_item_text">Khách hàng</div>
+                                    </div>
+                                    <div class="whyus_countup_item">
+                                        <div class="whyus_countup_item_number">70.000+</div>
+                                        <div class="whyus_countup_item_text">Tin đăng</div>
+                                    </div>
+                                    <div class="whyus_countup_item">
+                                        <div class="whyus_countup_item_number">300.000+</div>
+                                        <div class="whyus_countup_item_text">Lượt truy cập/tháng</div>
+                                    </div>
+                                    <div class="whyus_countup_item">
+                                        <div class="whyus_countup_item_number">2.000.000+</div>
+                                        <div class="whyus_countup_item_text">Lượt xem/tháng</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="whyus_block testimonial">
+                            <div class="whyus_header">
+                                <h3>Chúng tôi luôn mong muốn đem lại hiệu quả tối đa cho khách hàng</h3>
+                            </div>
+                            
+                        </div>
+                        <div class="whyus_block text-center">
+                            <div class="whyus_header">
+                                <h3>Bạn đang có phòng trọ / căn hộ cho thuê?</h3>
+                            </div>
+                            <div class="whyus_body">
+                                <p>Không phải lo tìm người cho thuê, phòng trống kéo dài</p>
+                                <a type="button" class="btn btn-success" href="dang-tin.html">Đăng tin ngay</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="page-footer">
+            <div class="footer-deco"></div>
+            <div class="footer-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="footer-col">
+                                <h2>Liên kết</h2>
+                                <ul class="social-link">
+                                    <li><a href="#"><i class="fa fa-facebook-square"></i> Facebook</a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus-square"></i> Google+</a></li>
+                                    <li><a href="#"><i class="fa fa-youtube-play"></i> Youtube</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="footer-col">
+                                <h2>Thanh toán</h2>
+                                <ul class="thanhtoan">
+                                    <li><a href="#"><img src="content/images/wepay.png" alt=""></a></li>
+                                    <li><a href="#"><img src="content/images/btn-android.png" alt=""></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="footer-col">
+                                <h2>Hỗ trợ khách hàng</h2>
+                                <ul class="support-link">
+                                    <li><a href="#">Trung tâm trợ giúp</a></li>
+                                    <li><a href="#">An toàn mua bán</a></li>
+                                    <li><a href="#">Quy định cần biết</a></li>
+                                    <li><a href="#">Liên hệ hỗ trợ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="footer-col">
+                                <h2>Về chúng tôi</h2>
+                                <ul class="about-link">
+                                    <ul>
+        <li><a href="gioi-thieu.html" rel="nofollow">Giới thiệu</a></li>
+        <li><a href="quy-dinh.html" rel="nofollow">Quy định, điều khoản sử dụng</a></li>
+        <li><a href="huong-dan-dang-tin.html" rel="nofollow">Hướng dẫn đăng tin</a></li>
+        <li><a href="lien-he.html" rel="nofollow">Liên hệ</a></li>
+</ul>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    <div class="logo_footer">
+                    <a href="default.htm" title="Thuê phòng trọ">
+                        <img src="style/images/logo-footer.png" alt="Thuê phòng trọ"></a>
+                </div>
+                <div class="info_footer">
+                    <p>Copyright © 2011 - 2018 Thuephongtro.com, ® Ghi rõ nguồn "Thuephongtro.com" khi phát hành lại thông tin từ website này.</p>
+                    <p>KÊNH THÔNG TIN HÀNG ĐẦU VỀ PHÒNG TRỌ TẠI VIỆT NAM</p>
+                    <p class="info_ct">
+                        <span>Hotline:  09678.333.78</span>
+                    </p>
+                    <p class="info_ct">
+                        <a style="border: none; margin: 0; padding: 0" rel="nofollow" href="mailto:nhatroviet_40gmail.com@Subject=Li_25C3_25AAn h_25E1_25BB_2587-nhatroviet_40gmail.com" target="_top">Email:nhatroviet_40gmail.com</a>
+                        <!--a href="skype:thuephongtro?chat" rel="nofollow">Skype: Thuê phòng trọ</a-->
+                        <!-- href="ymsgr:sendim?thuephongtro" rel="nofollow">Yahoo: Thuê phòng trọ</a-->
+                    </p>
+                </div>
+                </div>
+            </div>
+            <a class="back-to-top" style=""><i class="fa fa-angle-up"></i></a>
+        </footer>
+    </div>
+    <script type="text/javascript" src="content/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="content/libs/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="content/libs/owlcarousel/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="content/libs/select2/select2.full.min.js"></script>
+    <script type="text/javascript" src="content/js/validator.js"></script>
+    <script type="text/javascript" src="content/js/main.js"></script>
+    <script type="text/javascript" src="style/js/common.min.js"></script>
+    <script type="text/javascript" src="style/js/jquery.cookie-1.4.1.js"></script>
+    <script type="text/javascript">
+        var domainCookie = 'thuephongtro.com';
+        var productId = '0';
+        var userId = '';
+    </script>
+    
+    
+<script type="text/javascript">
+        $(function () {
+            $("#ddlProvince").change(function () {
+                var select = $("#ddlDistrict");
+                if ($(this).val() !== "") {
+                    $.ajax({
+                        url: "District/Get",
+                        type: "POST",
+                        dataType: "json",
+                        data: { id: $(this).val() },
+                        success: function (data) {
+                            select.html('');
+                            select.append('<option value="" selected="selected">Quận/Huyện</option>');
+                            $.each(data, function (i, item) {
+                                select.append('<option value="' + item.Id + '">' + item.Name + '</option>');
+                            });
+                        }
+                    });
+                }
+                else {
+                    select.html('');
+                    select.append('<option value="" selected="selected">Quận/Huyện</option>');
+                }
+            });
+        });
+</script>
+
+    <div id="boxProductSaved">
+        <div class="titlebox">
+            <span class="title">Tin đã lưu</span> <span id="deleteAll" title="Xóa tất cả" onclick="deleteAllNews();"></span><span id="btn_close" class="hideAll"></span>
+        </div>
+        <div>
+            <ul class="listbox" style="width: 100%; display: block"></ul>
+        </div>
+    </div>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','../https@www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42682349-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

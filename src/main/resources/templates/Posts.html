@@ -1,0 +1,37 @@
+<div xmlns:th="http://www.thymeleaf.org">
+	<h1>Posts</h1>
+	
+  	<div >
+  		<div class="row">
+  			<div class="col-sm-2 th">Title</div>
+  			<div class="col-sm-2 th">Content</div>
+  			<div class="col-sm-2 th">Image</div>
+  			<div class="col-sm-2 th">Start_at</div>
+  			<div class="col-sm-1 th">Status</div>
+  			<div class="col-sm-1 th">Price</div>
+  			<div class="col-sm-2 th">Action</div>
+  		</div>
+  		<div class="row" th:each="postinfo : ${postinfos}">
+  			<div class="col-sm-2 th" th:utext="${postinfo.title}">.....</div>
+  			<div class="col-sm-2 th" th:utext="${postinfo.content}">.....</div>
+
+  			<div class="col-sm-2 th" th:utext="${postinfo.img}">.....</div>
+  			<div class="col-sm-2 th" th:utext="${postinfo.startAt}">.....</div>
+  			<div class="col-sm-1 th" th:utext="${postinfo.status}">.....</div>
+
+  			<div class="col-sm-1 th" th:utext="${postinfo.price}">.....</div>
+  			<div class="col-sm-2 th row">
+  				<form th:action="@{/EditPage}" th:object="${postinfo}" method="POST" class="col-sm-4">
+  					<input type="hidden" th:value="${postinfo.id}"/>
+  					<button type="submit" class="btn btn-warning">edit</button>
+  				</form>
+  				<form  th:action="@{/EditPage}" method="POST" class="col-sm-6">
+  					<input type="hidden" name="id" value="id">
+  					<button class="btn btn-danger">remove</button>
+	  			</form>
+  			</div>
+
+  		</div>
+	</div>
+	
+</div>

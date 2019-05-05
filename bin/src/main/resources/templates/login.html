@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Đăng nhập</title>    
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="content/css/main.min.css" />
+    <link rel="stylesheet" type="text/css" href="content/libs/select2/select2.min.css" />
+    <link rel="stylesheet" type="text/css" href="style/css/boxsaved.css" />
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header-mobile visible-xs">
+                    <ul>
+                        <li><a href="dang-ky.html"><i class="fa fa-user-plus"></i><span>Đăng ký </span></a></li>
+                        <li><a href="dang-nhap.html"><i class="fa fa-sign-in"></i><span>Đăng nhập</span></a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#mobile_menu"><i class="fa fa-bars"></i><span>Danh mục</span></a></li>
+                        <li><a href="dang-tin.html"><i class="fa fa-plus-circle"></i><span>Đăng tin </span></a></li>
+                        <li><a href="#frmSearch_mb" class="click-to"><i class="fa fa-search"></i><span>Tìm kiếm</span></a></li>
+                    </ul>
+            </div>
+            <div class="modal right fade" id="mobile_menu" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times-circle"></i></button>
+                            <h4 class="modal-title">Menu</h4>
+                        </div>
+                        <div class="modal-body">
+                            <ul class="navbar-nav">
+                                <li class="menu-item-has-children ">
+                                    <a href="phong-tro/default.htm" title="Cho thuê phòng trọ">Cho thuê phòng trọ</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="phong-tro/tp-ho-chi-minh.html" title="TP Hồ Chí Minh">TP Hồ Chí Minh</a></li>
+                                        <li><a href="phong-tro/ha-noi.html" title="Hà Nội">Hà Nội</a></li>
+                                        <li><a href="phong-tro/binh-duong.html" title="Bình Dương">Bình Dương</a></li>
+                                        <li><a href="phong-tro/dong-nai.html" title="Đồng Nai">Đồng Nai</a></li>
+                                        <li><a href="phong-tro/vung-tau.html" title="Vũng Tàu">Vũng Tàu</a></li>
+                                        <li><a href="phong-tro/can-tho.html" title="Cần Thơ">Cần Thơ</a></li>
+                                        <li><a href="phong-tro/hai-phong.html" title="Hải Phòng">Hải Phòng</a></li>
+                                        <li><a href="phong-tro/da-nang.html" title="Đà Nẵng">Đà Nẵng</a></li>
+                                        <li><a href="phong-tro/thua-thien-hue.html" title="Thừa Thiên Huế">Thừa Thiên Huế</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children ">
+                                    <a href="nha-cho-thue/default.htm" title="Nhà cho thuê">Nhà cho thuê</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="nha-cho-thue/tp-ho-chi-minh.html" title="TP Hồ Chí Minh">TP Hồ Chí Minh</a></li>
+                                        <li><a href="nha-cho-thue/ha-noi.html" title="Hà Nội">Hà Nội</a></li>
+                                        <li><a href="nha-cho-thue/binh-duong.html" title="Bình Dương">Bình Dương</a></li>
+                                        <li><a href="nha-cho-thue/dong-nai.html" title="Đồng Nai">Đồng Nai</a></li>
+                                        <li><a href="nha-cho-thue/vung-tau.html" title="Vũng Tàu">Vũng Tàu</a></li>
+                                        <li><a href="nha-cho-thue/can-tho.html" title="Cần Thơ">Cần Thơ</a></li>
+                                        <li><a href="nha-cho-thue/hai-phong.html" title="Hải Phòng">Hải Phòng</a></li>
+                                        <li><a href="nha-cho-thue/da-nang.html" title="Đà Nẵng">Đà Nẵng</a></li>
+                                        <li><a href="nha-cho-thue/thua-thien-hue.html" title="Thừa Thiên Huế">Thừa Thiên Huế</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children ">
+                                    <a href="tim-nguoi-o-ghep/default.htm" title="Tìm người ở ghép">Tìm người ở ghép</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="tim-nguoi-o-ghep/tp-ho-chi-minh.html" title="TP Hồ Chí Minh">TP Hồ Chí Minh</a></li>
+                                        <li><a href="tim-nguoi-o-ghep/ha-noi.html" title="Hà Nội">Hà Nội</a></li>
+                                        <li><a href="tim-nguoi-o-ghep/binh-duong.html" title="Bình Dương">Bình Dương</a></li>
+                                        <li><a href="tim-nguoi-o-ghep/dong-nai.html" title="Đồng Nai">Đồng Nai</a></li>
+                                        <li><a href="tim-nguoi-o-ghep/vung-tau.html" title="Vũng Tàu">Vũng Tàu</a></li>
+                                        <li><a href="tim-nguoi-o-ghep/can-tho.html" title="Cần Thơ">Cần Thơ</a></li>
+                                        <li><a href="tim-nguoi-o-ghep/hai-phong.html" title="Hải Phòng">Hải Phòng</a></li>
+                                        <li><a href="tim-nguoi-o-ghep/da-nang.html" title="Đà Nẵng">Đà Nẵng</a></li>
+                                        <li><a href="tim-nguoi-o-ghep/thua-thien-hue.html" title="Thừa Thiên Huế">Thừa Thiên Huế</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="gioi-thieu.html">Giới thiệu</a>
+                                </li>
+                                <li>
+                                    <a href="huong-dan.html">Hướng dẫn</a>
+                                </li>
+                                <li>
+                                    <a href="dang-tin.html" title="Đăng tin"><i class="fa fa-pencil-square-o"></i> ĐĂNG TIN</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navbarTop hidden-xs">
+                <div class="container">
+                    <div class="pull-left">
+                        <div class="social-like">
+                            <div class="fb-like fb_iframe_widget" data-href="https://www.facebook.com/timnhatro/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=1748349635396853&amp;container_width=0&amp;href=https%3A%2F%2Fwww.facebook.com%2F2Ftimnhatro&amp;layout=button_count&amp;locale=vi_VN&amp;sdk=joey&amp;share=true&amp;show_faces=true&amp;size=small"><span style="vertical-align: bottom; width: 147px; height: 20px;"><iframe name="f280b8b56ca9ef8" width="1000px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" title="fb:like Facebook Social Plugin" src="../https@www.facebook.com/v2.5/plugins/like.php@action=like&app_id=1748349635396853&channel=https_253A_252F_252Fstaticxx.facebook.com_252Fconnect_252Fxd_01860D7CAC" style="border: none; visibility: visible; width: 147px; height: 20px;" class=""></iframe></span></div>
+                            <div class="google-like" style="display: inline-block;">
+                                <!-- Place this tag in your head or just before your close body tag. -->
+                                <script src="../https@apis.google.com/js/platform.js" async="" defer="" gapi_processed="true">
+                                    { lang: 'vi' }
+                                </script>
+                                <!-- Place this tag where you want the +1 button to render. -->
+                                <div id="___plusone_0" style="text-indent: 0px; margin: 0px; padding: 0px; background: transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 38px; height: 24px;"><iframe ng-non-bindable="" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 38px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 24px;" tabindex="0" vspace="0" width="100%" id="I0_1529339623330" name="I0_1529339623330" src="../https@apis.google.com/u/0/se/0/_/+1/fastbutton@usegapi=1&size=standard&annotation=inline&width=&hl=vi&origin=https_253A_252F_252Fthuephongtro.com&url=ht01D373815D#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh%2Conload&id=I0_1529339623330&_gfid=I0_1529339623330&parent=https%3A%2F%2Fthuephongtro.com&pfname=&rpctoken=48831655" data-gapiattached="true" title="G+"></iframe></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pull-right">
+                            <div class="user_welcome">
+        <a rel="nofollow" class="btn-red" href="dang-nhap.html"><i class="fa fa-sign-in"></i> Đăng nhập</a>
+        <a rel="nofollow" class="btn-red" href="dang-ky.html"><i class="fa fa-user-plus"></i> Đăng ký</a>
+    </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="header-banner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-4">
+                            <div class="logo">
+                                <a href="default.htm">
+                                    <img src="content/images/logo.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-8 quangcao-header hidden-xs">
+                            <div class="quangcao-header-inner">
+                                 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-menu hidden-xs">
+                <div class="container">
+                    <nav class="navbar">
+                        
+<ul class="navbar-nav">
+    <li class="">
+        <a href="default.htm">Trang chủ</a>
+    </li>
+        <li class="menu-item-has-children ">
+            <a href="phong-tro/default.htm" title="Cho thuê phòng trọ">Cho thuê phòng trọ</a>
+            <ul class="sub-menu">
+        <li><a href="phong-tro/tp-ho-chi-minh.html" title="TP Hồ Chí Minh">TP Hồ Chí Minh</a></li>
+        <li><a href="phong-tro/ha-noi.html" title="Hà Nội">Hà Nội</a></li>
+        <li><a href="phong-tro/binh-duong.html" title="Bình Dương">Bình Dương</a></li>
+        <li><a href="phong-tro/dong-nai.html" title="Đồng Nai">Đồng Nai</a></li>
+        <li><a href="phong-tro/vung-tau.html" title="Vũng Tàu">Vũng Tàu</a></li>
+        <li><a href="phong-tro/can-tho.html" title="Cần Thơ">Cần Thơ</a></li>
+        <li><a href="phong-tro/hai-phong.html" title="Hải Phòng">Hải Phòng</a></li>
+        <li><a href="phong-tro/da-nang.html" title="Đà Nẵng">Đà Nẵng</a></li>
+        <li><a href="phong-tro/thua-thien-hue.html" title="Thừa Thiên Huế">Thừa Thiên Huế</a></li>
+</ul>
+        </li>
+        <li class="menu-item-has-children ">
+            <a href="nha-cho-thue/default.htm" title="Nhà cho thuê">Nhà cho thuê</a>
+            <ul class="sub-menu">
+        <li><a href="nha-cho-thue/tp-ho-chi-minh.html" title="TP Hồ Chí Minh">TP Hồ Chí Minh</a></li>
+        <li><a href="nha-cho-thue/ha-noi.html" title="Hà Nội">Hà Nội</a></li>
+        <li><a href="nha-cho-thue/binh-duong.html" title="Bình Dương">Bình Dương</a></li>
+        <li><a href="nha-cho-thue/dong-nai.html" title="Đồng Nai">Đồng Nai</a></li>
+        <li><a href="nha-cho-thue/vung-tau.html" title="Vũng Tàu">Vũng Tàu</a></li>
+        <li><a href="nha-cho-thue/can-tho.html" title="Cần Thơ">Cần Thơ</a></li>
+        <li><a href="nha-cho-thue/hai-phong.html" title="Hải Phòng">Hải Phòng</a></li>
+        <li><a href="nha-cho-thue/da-nang.html" title="Đà Nẵng">Đà Nẵng</a></li>
+        <li><a href="nha-cho-thue/thua-thien-hue.html" title="Thừa Thiên Huế">Thừa Thiên Huế</a></li>
+</ul>
+        </li>
+        <li class="menu-item-has-children ">
+            <a href="tim-nguoi-o-ghep/default.htm" title="Tìm người ở ghép">Tìm người ở ghép</a>
+            <ul class="sub-menu">
+        <li><a href="tim-nguoi-o-ghep/tp-ho-chi-minh.html" title="TP Hồ Chí Minh">TP Hồ Chí Minh</a></li>
+        <li><a href="tim-nguoi-o-ghep/ha-noi.html" title="Hà Nội">Hà Nội</a></li>
+        <li><a href="tim-nguoi-o-ghep/binh-duong.html" title="Bình Dương">Bình Dương</a></li>
+        <li><a href="tim-nguoi-o-ghep/dong-nai.html" title="Đồng Nai">Đồng Nai</a></li>
+        <li><a href="tim-nguoi-o-ghep/vung-tau.html" title="Vũng Tàu">Vũng Tàu</a></li>
+        <li><a href="tim-nguoi-o-ghep/can-tho.html" title="Cần Thơ">Cần Thơ</a></li>
+        <li><a href="tim-nguoi-o-ghep/hai-phong.html" title="Hải Phòng">Hải Phòng</a></li>
+        <li><a href="tim-nguoi-o-ghep/da-nang.html" title="Đà Nẵng">Đà Nẵng</a></li>
+        <li><a href="tim-nguoi-o-ghep/thua-thien-hue.html" title="Thừa Thiên Huế">Thừa Thiên Huế</a></li>
+</ul>
+        </li>
+    <li class="">
+        <a href="gioi-thieu.html">Giới thiệu</a>
+    </li>
+    <li class="">
+        <a href="huong-dan.html">Hướng dẫn</a>
+    </li>
+    <li>
+        <a href="dang-tin.html" title="Đăng tin"><i class="fa fa-pencil-square-o"></i> ĐĂNG TIN</a>
+    </li>
+</ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div class="main-container">
+            
+
+<div class="access_page">
+    <div class="container">
+        <p id="breadcrumbs">
+            <i class="fa fa-home"></i>
+            <span xmlns:v="http://rdf.data-vocabulary.org/#">
+                <span typeof="v:Breadcrumb">
+                    <a href="default.htm" rel="v:url" property="v:title">Trang chủ</a>
+                    <i class="fa fa-angle-double-right"></i>
+                    <span class="breadcrumb_last">Đăng nhập</span>
+                </span>
+            </span>
+        </p>
+        <div class="page_header">
+            <h1 class="page_title">Đăng nhập</h1>
+        </div>
+        <div class="page_content register_page clearfix">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="form_wrapper">
+                        
+                        <form class="form-inner register-form " action="" method="POST">
+                            <div class="form-group">
+                                <label for="UserName" class="control-label">Tên đăng nhập</label>
+                                <input class="form-control" data-val="true" data-val-required="*" id="UserName" name="UserName" required="True" type="text" value="" />
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="Password" class="control-label">Mật khẩu</label>
+                                <input class="form-control" data-val="true" data-val-required="*" id="Password" name="Password" required="True" type="password" />
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                                <input class="custom-control-input" data-val="true" data-val-required="The Remember field is required." id="Remember" name="Remember" type="checkbox" value="true" /><input name="Remember" type="hidden" value="false" />
+                                <label class="custom-control-label" for="Remember">Nhớ mật khẩu</label>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="btn_wrapper">
+                                <button type="submit" class="btn btn-success btn-block"><i class="fa fa-sign-in"></i> Đăng nhập</button>
+                            </div>
+                            <div class="mgt-20">
+                                <a href="quen-mat-khau.html">Bạn quên mật khẩu?</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- end left -->
+                <div class="col-xs-12 col-sm-1 col-md-1 hidden-xs">
+                    <div class="middle">
+                        <div class="text-center"><span>Hoặc</span></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-5 col-md-5">
+                    <div class="right">
+                        <p class="font-16 mgb-20">Đăng nhập bằng Facebook hoặc Google</p>
+                        <div class="social-connect-container">
+                            <div class="sc-buttons">
+                                <a href="#" class="sc-facebook">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    <span>Đăng nhập bằng Facebook</span>
+                                </a>
+                                <a href="#" class="sc-google">
+                                    <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                    <span>Đăng nhập bằng Google+</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end right -->
+            </div>
+            <hr>
+            <div class="text-center mgt-25">
+                <p class="font-16">Bạn chưa có tài khoản? <a href="dang-ky.html"><b>Đăng ký ngay</b></a></p>
+            </div>
+        </div>
+    </div>
+</div>
+            <div class="searchbar_top visible-xs">
+                <div class="searchbar_top_body">
+                    <form action="/tim-kiem.html" method="GET" name="frmSearch" id="frmSearch_mb">
+                        <div class="box-search">
+                            <h3 class="title">Tìm kiếm nhanh</h3>
+                            <div class="bs-content">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-2">
+                                        <select id="ddlCategory" name="category" class="form-control">
+                                            <option value="">Chọn danh mục</option>
+                                            
+    <option value="0400" >Cho thuê phòng trọ</option>
+    <option value="0600" >Nhà cho thuê</option>
+    <option value="0500" >Tìm người ở ghép</option>
+
+                                        </select>
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-6 col-md-2">
+                                        <select id="ddlProvince" name="province" class="form-control">
+                                            <option value="">Tỉnh/Thành phố</option>
+                                            
+    <option value="1" >TP Hồ Chí Minh</option>
+    <option value="2" >Hà Nội</option>
+    <option value="43" selected>Bình Dương</option>
+    <option value="47" >Đồng Nai</option>
+    <option value="51" >Vũng Tàu</option>
+    <option value="54" >Cần Thơ</option>
+    <option value="3" >Hải Phòng</option>
+    <option value="4" >Đà Nẵng</option>
+    <option value="32" >Thừa Thiên Huế</option>
+    <option value="5" >Hà Giang</option>
+    <option value="6" >Cao Bằng</option>
+    <option value="7" >Lai Châu</option>
+    <option value="8" >Lào Cai</option>
+    <option value="9" >Tuyên Quang</option>
+    <option value="10" >Lạng Sơn</option>
+    <option value="11" >Bắc Kạn</option>
+    <option value="12" >Thái Nguyên</option>
+    <option value="13" >Yên Bái</option>
+    <option value="14" >Sơn La</option>
+    <option value="15" >Phú Thọ</option>
+    <option value="16" >Vĩnh Phúc</option>
+    <option value="17" >Quảng Ninh</option>
+    <option value="18" >Bắc Giang</option>
+    <option value="19" >Bắc Ninh</option>
+    <option value="20" >Hải Dương</option>
+    <option value="21" >Hưng Yên</option>
+    <option value="22" >Hoà Bình</option>
+    <option value="23" >Hà Nam</option>
+    <option value="24" >Nam Định</option>
+    <option value="25" >Thái Bình</option>
+    <option value="26" >Ninh Bình</option>
+    <option value="27" >Thanh Hoá</option>
+    <option value="28" >Nghệ An</option>
+    <option value="29" >Hà Tĩnh</option>
+    <option value="30" >Quảng Bình</option>
+    <option value="31" >Quảng Trị</option>
+    <option value="33" >Quảng Nam</option>
+    <option value="34" >Quảng Ngãi</option>
+    <option value="35" >Kontum</option>
+    <option value="36" >Bình Định</option>
+    <option value="37" >Gia Lai</option>
+    <option value="38" >Phú Yên</option>
+    <option value="39" >Đăk Lăk</option>
+    <option value="40" >Khánh Hoà</option>
+    <option value="41" >Lâm Đồng</option>
+    <option value="42" >Bình Phước</option>
+    <option value="55" >Bến Tre</option>
+    <option value="56" >Vĩnh Long</option>
+    <option value="57" >Trà Vinh</option>
+    <option value="58" >Sóc Trăng</option>
+    <option value="59" >Bạc Liêu</option>
+    <option value="60" >Cà Mau</option>
+    <option value="61" >Điện Biên</option>
+    <option value="62" >Dăk Nông</option>
+    <option value="63" >Hậu Giang</option>
+    <option value="48" >Long An</option>
+    <option value="49" >Đồng Tháp</option>
+    <option value="50" >An Giang</option>
+    <option value="44" >Ninh Thuận</option>
+    <option value="45" >Tây Ninh</option>
+    <option value="46" >Bình Thuận</option>
+    <option value="52" >Tiền Giang</option>
+    <option value="53" >Kiên Giang</option>
+>
+                                        </select>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-2">
+                                        <select id="ddlDistrict" name="district" class="form-control">
+                                            <option value="">Quận/Huyện</option>
+
+    <option value="500" >Thị xã Thủ Dầu Một</option>
+    <option value="501" >Huyện Bến Cát</option>
+    <option value="502" >Huyện Tân Uyên</option>
+    <option value="503" >Huyện Thuận An</option>
+    <option value="504" >Huyện Dĩ An</option>
+    <option value="505" >Huyện Phú Giáo</option>
+    <option value="506" >Huyện Dầu Tiếng</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-2">
+                                        <select id="ddlArea" name="area" class="form-control">
+                                            <option value="">Diện tích</option>
+                                            
+    <option value="0-20" >&lt;20 m2</option>
+    <option value="20-40" >20 - 40 m2</option>
+    <option value="40-80" >40 - 80 m2</option>
+    <option value="80-100" >80 - 100 m2</option>
+    <option value="100" >&gt;100 m2</option>
+
+                                        </select>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-2">
+                                        <select id="ddlPrice" name="price" class="form-control">
+                                            <option value="">Mức giá</option>
+                                            
+    <option value="0" >Thỏa thuận</option>
+    <option value="1-1000000" >&lt; 1 triệu</option>
+    <option value="1000000-2000000" >1 triệu - 2 triệu</option>
+    <option value="2000000-3000000" >2 triệu - 3 triệu</option>
+    <option value="3000000-5000000" >3 triệu - 5 triệu</option>
+    <option value="5000000" >&gt; 5 triệu</option>
+
+                                        </select>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-2">
+                                        <div class="bs-item" id="KeyDownEnterHome" style="background: none;">
+                                            <input class="form-control" name="id" type="text" placeholder="Tìm theo mã số tin">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bs-search">
+                                <button class="btn btn-warning btn-block">Tìm ngay</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="whyus">
+                <div class="container">
+                    <div class="whyus_wrapper">
+                        <div class="whyus_block">
+                            <div class="whyus_header">
+                                <h3>Tại sao lại chọn ThuePhongTro.com?</h3>
+                            </div>
+                            <div class="whyus_body">
+                                <p>Chúng tôi biết bạn có rất nhiều lựa chọn, nhưng thuephongtro.com tự hào là trang web đứng top google về các từ khóa: <strong>cho thuê phòng trọ</strong>, <strong>nhà trọ</strong>, <strong>thuê nhà nguyên căn</strong>, <strong>cho thuê căn hộ</strong>, <strong>tìm người ở ghép</strong>...Vì vậy tin của bạn đăng trên website sẽ tiếp cận được với nhiều khách hàng hơn, do đó giao dịch nhanh hơn, tiết kiệm chi phí hơn</p>
+                                <div class="whyus_countup clearfix">
+                                    <div class="whyus_countup_item">
+                                        <div class="whyus_countup_item_number">24.000+</div>
+                                        <div class="whyus_countup_item_text">Khách hàng</div>
+                                    </div>
+                                    <div class="whyus_countup_item">
+                                        <div class="whyus_countup_item_number">70.000+</div>
+                                        <div class="whyus_countup_item_text">Tin đăng</div>
+                                    </div>
+                                    <div class="whyus_countup_item">
+                                        <div class="whyus_countup_item_number">300.000+</div>
+                                        <div class="whyus_countup_item_text">Lượt truy cập/tháng</div>
+                                    </div>
+                                    <div class="whyus_countup_item">
+                                        <div class="whyus_countup_item_number">2.000.000+</div>
+                                        <div class="whyus_countup_item_text">Lượt xem/tháng</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="whyus_block testimonial">
+                            <div class="whyus_header">
+                                <h3>Chúng tôi luôn mong muốn đem lại hiệu quả tối đa cho khách hàng</h3>
+                            </div>
+                            
+                        </div>
+                        <div class="whyus_block text-center">
+                            <div class="whyus_header">
+                                <h3>Bạn đang có phòng trọ / căn hộ cho thuê?</h3>
+                            </div>
+                            <div class="whyus_body">
+                                <p>Không phải lo tìm người cho thuê, phòng trống kéo dài</p>
+                                <a type="button" class="btn btn-success" href="dang-tin.html">Đăng tin ngay</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="page-footer">
+            <div class="footer-deco"></div>
+            <div class="footer-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="footer-col">
+                                <h2>Liên kết</h2>
+                                <ul class="social-link">
+                                    <li><a href="#"><i class="fa fa-facebook-square"></i> Facebook</a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus-square"></i> Google+</a></li>
+                                    <li><a href="#"><i class="fa fa-youtube-play"></i> Youtube</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="footer-col">
+                                <h2>Thanh toán</h2>
+                                <ul class="thanhtoan">
+                                    <li><a href="#"><img src="content/images/wepay.png" alt=""></a></li>
+                                    <li><a href="#"><img src="content/images/btn-android.png" alt=""></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="footer-col">
+                                <h2>Hỗ trợ khách hàng</h2>
+                                <ul class="support-link">
+                                    <li><a href="#">Trung tâm trợ giúp</a></li>
+                                    <li><a href="#">An toàn mua bán</a></li>
+                                    <li><a href="#">Quy định cần biết</a></li>
+                                    <li><a href="#">Liên hệ hỗ trợ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="footer-col">
+                                <h2>Về chúng tôi</h2>
+                                <ul class="about-link">
+                                    <ul>
+        <li><a href="gioi-thieu.html" rel="nofollow">Giới thiệu</a></li>
+        <li><a href="quy-dinh.html" rel="nofollow">Quy định, điều khoản sử dụng</a></li>
+        <li><a href="huong-dan-dang-tin.html" rel="nofollow">Hướng dẫn đăng tin</a></li>
+        <li><a href="lien-he.html" rel="nofollow">Liên hệ</a></li>
+</ul>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    <div class="logo_footer">
+                    <a href="default.htm" title="Thuê phòng trọ">
+                        <img src="style/images/logo-footer.png" alt="Thuê phòng trọ"></a>
+                </div>
+                <div class="info_footer">
+                    <p>Copyright © 2011 - 2018 Thuephongtro.com, ® Ghi rõ nguồn "Thuephongtro.com" khi phát hành lại thông tin từ website này.</p>
+                    <p>KÊNH THÔNG TIN HÀNG ĐẦU VỀ PHÒNG TRỌ TẠI VIỆT NAM</p>
+                    <p class="info_ct">
+                        <span>Hotline:  09678.333.78</span>
+                    </p>
+                    <p class="info_ct">
+                        <a style="border: none; margin: 0; padding: 0" rel="nofollow" href="mailto:nhatroviet@gmail.com?Subject=Liên hệ-nhatroviet@gmail.com" target="_top">Email: nhatroviet@gmail.com</a>
+                        <!--a href="skype:thuephongtro?chat" rel="nofollow">Skype: Thuê phòng trọ</a-->
+                        <!-- href="ymsgr:sendim?thuephongtro" rel="nofollow">Yahoo: Thuê phòng trọ</a-->
+                    </p>
+                </div>
+                </div>
+            </div>
+            <a class="back-to-top" style="default.htm"><i class="fa fa-angle-up"></i></a>
+        </footer>
+    </div>
+    <script type="text/javascript" src="content/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="content/libs/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="content/libs/owlcarousel/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="content/libs/select2/select2.full.min.js"></script>
+    <script type="text/javascript" src="content/js/validator.js"></script>
+    <script type="text/javascript" src="content/js/main.js"></script>
+    <script type="text/javascript" src="style/js/common.min.js"></script>
+    <script type="text/javascript" src="style/js/jquery.cookie-1.4.1.js"></script>
+    <script type="text/javascript">
+        var domainCookie = 'thuephongtro.com';
+        var productId = '0';
+        var userId = '';
+    </script>
+    
+    <div id="boxProductSaved">
+        <div class="titlebox">
+            <span class="title">Tin đã lưu</span> <span id="deleteAll" title="Xóa tất cả" onclick="deleteAllNews();"></span><span id="btn_close" class="hideAll"></span>
+        </div>
+        <div>
+            <ul class="listbox" style="width: 100%; display: block"></ul>
+        </div>
+    </div>
+    <!--ipt>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42682349-1', 'auto');
+  ga('send', 'pageview');
+
+</scri-->
+</body>
+</html>

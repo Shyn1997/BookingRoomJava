@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="x-ua-compatible" content="ie=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Thuê Phòng Trọ</title>
+<meta name="robots" content="index, follow" />
+<meta name="keywords"
+	content="thue phong tro, cho thuê phòng trọ, tim phong tro, thue nha tro, phòng trọ, nhà trọ" />
+<meta name="description"
+	content="Cho thuê phòng trọ nhanh và hiệu quả số 1 Việt Nam, Website hỗ trợ đăng tin cho thuê phòng trọ, tìm thuê nhà trọ, ở ghép cho sinh viên và người đi làm." />
+
+<link th:href="@{/bootstrap/css/bootstrap.min.css}" rel="stylesheet"
+	media="screen" />
+
+<script th:src="@{/jquery/jquery.min.js}"></script>
+<script th:src="@{/popper/popper.min.js}"></script>
+<script th:src="@{/bootstrap/js/bootstrap.min.js}"></script>
+
+<link th:href="@{/resources/css/main.min.css}" rel="stylesheet" />
+<link th:href="@{/resources/css/select2.min.css}" rel="stylesheet" />
+<link th:href="@{/resources/css/boxsaved.css}" rel="stylesheet" />
+<link th:href="@{/resources/css/boottstrap.css}" rel="stylesheet" />
+<link th:href="@{/resources/css/edit.css}" rel="stylesheet" />
+
+
+</head>
+<body>
+	<div class="tab">
+	  <button class="tablinks" onclick="openCity(event, 'password')" id="defaultOpen">password</button>
+	  <button class="tablinks" onclick="openCity(event, 'listUser')">List User</button>
+	  <button class="tablinks" onclick="openCity(event, 'post')">Post</button>
+	  <button class="tablinks" onclick="openCity(event, 'posts')">Posts</button>
+	  <button class="tablinks" onclick="openCity(event, 'counter')">Counter</button>
+	</div>
+
+	<div id="password" class="tabcontent">
+	  
+	</div>
+
+	<div id="listUser" class="tabcontent">
+	  <th:block th:include="/ListUser"></th:block>
+	</div>
+	
+	<div id="post" class="tabcontent">
+	  	<th:block th:include="/Edit"></th:block>
+	</div>
+	
+	<div id="posts" class="tabcontent">
+		<th:block th:include="/Posts"></th:block>
+	</div>
+	<div id="counter" class="tabcontent">
+	  
+	</div>
+	<script>
+	function openCity(evt, cityName) {
+	  var i, tabcontent, tablinks;
+	  tabcontent = document.getElementsByClassName("tabcontent");
+	  for (i = 0; i < tabcontent.length; i++) {
+	    tabcontent[i].style.display = "none";
+	  }
+	  tablinks = document.getElementsByClassName("tablinks");
+	  for (i = 0; i < tablinks.length; i++) {
+	    tablinks[i].className = tablinks[i].className.replace(" active", "");
+	  }
+	  document.getElementById(cityName).style.display = "block";
+	  evt.currentTarget.className += " active";
+	}
+
+	// Get the element with id="defaultOpen" and click on it
+	document.getElementById("defaultOpen").click();
+	</script>
+   
+</body>
+</html>

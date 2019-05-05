@@ -1,0 +1,50 @@
+<div xmlns:th="http://www.thymeleaf.org">
+	<div class="container color">
+		<h1 class="text-center text-uppercase edit">Post</h1>
+		<hr>
+		<form id="contactform" name="contact" method="post" action="#" th:object="${postinfo}">
+			<p class="note">
+				<span class="req">*</span> Asterisk fields are required
+			</p>
+			<div class="row">
+				<label for="name">Title <span class="req">*</span></label> 
+				<input type="text" name="titie" id="title" class="txt" tabindex="1"
+					th:utext="${title}" placeholder="Steve Jobs" required>
+			</div>
+			<div class="row">
+				<label for="email">Start at <span class="req">*</span></label> <input
+					type="date" name="start_at" id="start_at" class="txt" tabindex="2"
+					required>
+			</div>
+
+			<div class="row">
+				<label for="subject">Price <span class="req">*</span></label> <input
+					type="text" name="price" id="price" class="txt" tabindex="3"
+					placeholder="100000" required>
+			</div>
+
+			<div class="row">
+				<label for="subject">Status <span class="req">*</span></label> <input
+					type="text" name="status" id="status" class="txt" tabindex="4"
+					required>
+			</div>
+
+			<div class="row">
+				<label for="message">Content <span class="req">*</span></label>
+				<textarea name="content" id="content" class="txtarea" tabindex="5"
+					required></textarea>
+			</div>
+			<div class="row">
+				<label for="image">Image <span class="req">*</span></label> <input
+					type="file" name="image" id="image" class="txt" tabindex="6"
+					required>
+			</div>
+
+			<div class="center">
+				<button type="submit" id="submitbtn" name="submitbtn" class="btn btn-primary" tabindex="7"
+					value="Send">Send </button>
+					<a class="btn btn-danger" th:href="@{/}">Cancel</a>
+			</div>
+		</form>
+	</div>
+</div>
