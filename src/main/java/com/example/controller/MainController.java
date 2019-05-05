@@ -56,8 +56,12 @@ public class MainController {
 	}
 
 	@RequestMapping(value = "/EditPage", method = RequestMethod.POST)
-	public String showEdit( ) {
-		
+	public String showEdit( Model model, @PathVariable Long id) {
+		List<PostInfo> listPost= new ArrayList<PostInfo>();
+		listPost=listPostDAO.getPost(id);
+		PostInfo post=new PostInfo();
+		post=listPost.get(0);
+		model.addAttribute("postinfo", post);
 		return "EditPage";
 	}
 	@Autowired
